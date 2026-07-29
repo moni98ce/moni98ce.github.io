@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Utility Infrastructure">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#062f3a"/>
+        <stop offset="1" stop-color="#116d7f"/>
+      </linearGradient>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="1200" height="720" fill="url(#bg)"/>
+    <rect width="1200" height="720" fill="url(#grid)"/>
+    
+        <rect x="250" y="420" width="700" height="120" rx="18" fill="#ffffff" fill-opacity=".1" stroke="#d7eef1" stroke-width="8"/>
+        <circle cx="380" cy="480" r="44" fill="none" stroke="#f6b94a" stroke-width="10"/>
+        <circle cx="520" cy="480" r="44" fill="none" stroke="#f6b94a" stroke-width="10"/>
+        <circle cx="660" cy="480" r="44" fill="none" stroke="#f6b94a" stroke-width="10"/>
+        <circle cx="800" cy="480" r="44" fill="none" stroke="#f6b94a" stroke-width="10"/>
+        <path d="M300 420V280h600v140" fill="none" stroke="#d7eef1" stroke-width="10"/>
+        
+    <rect x="52" y="52" width="1096" height="616" rx="28" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2"/>
+    <text x="76" y="626" fill="#ffffff" font-family="Georgia, serif" font-size="54" font-weight="700">Utility Infrastructure</text>
+    <text x="80" y="674" fill="#d7eef1" font-family="Arial, sans-serif" font-size="25">Duct banks, pump stations and support structures</text>
+    </svg>

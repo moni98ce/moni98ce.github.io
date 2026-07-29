@@ -1,17 +1,39 @@
-# Moniruzzaman Moni — Professional Website v3
+# Moniruzzaman Moni — Professional Website v4
 
-A multi-page static website prepared for GitHub Pages.
+## What is new
+- Multi-page responsive website
+- Dark/light mode
+- Searchable and filterable project portfolio
+- Project detail modal
+- SEO metadata
+- Original representative engineering illustrations
+- Privacy-first contact design
+- GitHub Pages ready
 
-## Upload
+## Upload correctly
 1. Extract the ZIP.
-2. In `moni98ce/moni98ce.github.io`, choose **Add file → Upload files**.
-3. Drag **all files and the `assets` folder** into GitHub.
-4. Commit directly to `main`.
-5. Wait 1–3 minutes, then visit `https://moni98ce.github.io`.
-6. Use Ctrl+F5 if the browser shows an older cached version.
+2. Open the `moni98ce.github.io` repository.
+3. Choose **Add file → Upload files**.
+4. Drag all files **and the entire `assets` folder**.
+5. Commit directly to `main`.
+6. Wait 1–3 minutes.
+7. Visit `https://moni98ce.github.io`.
+8. Use Ctrl+F5 if the older version appears.
 
-## Replace project illustrations
-The SVG files in `assets/` are original representative illustrations. You may replace them with authorized project photographs, preserving the same file names or updating the HTML references.
+## Critical folder structure
+Keep this exact structure:
 
-## Important
-Do not publish confidential employer information, restricted drawings, client data, personal residential address, or private phone numbers.
+- index.html
+- projects.html
+- research.html
+- publications.html
+- recognition.html
+- contact.html
+- styles.css
+- script.js
+- assets/
+  - Moniruzzaman-Moni-CV.pdf
+  - images/
+  - data/
+
+Do not upload the contents of `assets` directly into the repository root.

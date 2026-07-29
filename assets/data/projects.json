@@ -1,0 +1,146 @@
+[
+  {
+    "title": "42-Storey Building, Toronto",
+    "category": "Buildings",
+    "image": "highrise.svg",
+    "summary": "Structural analysis and design contribution for a major high-rise building in Toronto.",
+    "details": "Work included advanced structural modelling, gravity and lateral system evaluation, design coordination, and code-based review for a complex high-rise building.",
+    "tags": [
+      "High-rise",
+      "Concrete",
+      "Toronto"
+    ]
+  },
+  {
+    "title": "Kazir Bazar Bridge, Sylhet",
+    "category": "Bridges",
+    "image": "bridge.svg",
+    "summary": "Structural design contribution for a major bridge project in Bangladesh.",
+    "details": "Contributed to the structural design of bridge components and associated infrastructure as part of a multidisciplinary design team.",
+    "tags": [
+      "Bridge",
+      "Transportation",
+      "Bangladesh"
+    ]
+  },
+  {
+    "title": "Kuril Flyover, Dhaka",
+    "category": "Transportation",
+    "image": "flyover.svg",
+    "summary": "Structural design work for a major urban grade-separated transportation project.",
+    "details": "Contributed to structural analysis, design development and project coordination for a large flyover and interchange system.",
+    "tags": [
+      "Flyover",
+      "Urban infrastructure",
+      "AASHTO"
+    ]
+  },
+  {
+    "title": "East West University Campus",
+    "category": "Buildings",
+    "image": "campus.svg",
+    "summary": "Structural analysis and reinforced-concrete design for a major institutional campus.",
+    "details": "Supported structural system development, analysis and design of institutional building components.",
+    "tags": [
+      "Institutional",
+      "Concrete",
+      "Campus"
+    ]
+  },
+  {
+    "title": "MIDAS Bhaban",
+    "category": "Buildings",
+    "image": "campus.svg",
+    "summary": "Structural design contribution for a commercial building in Dhaka.",
+    "details": "Worked on analysis and reinforced-concrete design for a complex urban commercial building.",
+    "tags": [
+      "Commercial",
+      "Concrete",
+      "Dhaka"
+    ]
+  },
+  {
+    "title": "PWD Public Building Rehabilitation",
+    "category": "Rehabilitation",
+    "image": "rehab.svg",
+    "summary": "Assessment, seismic evaluation, retrofit planning and rehabilitation of public buildings.",
+    "details": "Contributed to condition assessment, seismic vulnerability evaluation, rehabilitation planning and structural retrofit design for government infrastructure.",
+    "tags": [
+      "Retrofit",
+      "Public buildings",
+      "Seismic"
+    ]
+  },
+  {
+    "title": "Ontario Bridge Rehabilitation",
+    "category": "Bridges",
+    "image": "bridge.svg",
+    "summary": "Scope development, consultant oversight and technical review for bridge and culvert rehabilitation.",
+    "details": "Public-sector infrastructure work involving inspection review, rehabilitation strategy, consultant coordination, construction support and technical decision-making.",
+    "tags": [
+      "MTO",
+      "OSIM",
+      "Rehabilitation"
+    ]
+  },
+  {
+    "title": "Communication Towers",
+    "category": "Telecommunication",
+    "image": "tower.svg",
+    "summary": "Structural analysis and design of self-supporting telecommunication towers.",
+    "details": "Designed and assessed tower systems for wind, ice, equipment and serviceability demands using applicable tower design standards.",
+    "tags": [
+      "Tower",
+      "Wind",
+      "Steel"
+    ]
+  },
+  {
+    "title": "Guyed Masts, Monopoles and Poles",
+    "category": "Telecommunication",
+    "image": "tower.svg",
+    "summary": "Design and assessment of guyed masts, monopoles and utility support poles.",
+    "details": "Work included global stability, member design, foundation reactions, guy system behaviour and serviceability checks.",
+    "tags": [
+      "Guyed mast",
+      "Monopole",
+      "Pole"
+    ]
+  },
+  {
+    "title": "Utility Infrastructure",
+    "category": "Utilities",
+    "image": "utility.svg",
+    "summary": "Structural design of duct banks, pump stations, foundations and utility support systems.",
+    "details": "Designed reinforced-concrete and steel utility structures for earth, seismic, highway and operational loading.",
+    "tags": [
+      "BC Hydro",
+      "Duct bank",
+      "Municipal"
+    ]
+  },
+  {
+    "title": "Seismic Design Manual",
+    "category": "Seismic",
+    "image": "seismic.svg",
+    "summary": "Associate author contribution to an official seismic design manual developed through PWD/JICA collaboration.",
+    "details": "Contributed to technical content supporting seismic design and assessment practice for new and existing buildings.",
+    "tags": [
+      "Manual",
+      "JICA",
+      "Seismic"
+    ]
+  },
+  {
+    "title": "Nuclear Facility Engineering",
+    "category": "Industrial",
+    "image": "seismic.svg",
+    "summary": "Seismic qualification and structural assessment of heavy-lift and equipment support systems.",
+    "details": "Performed response-spectrum analysis and code-compliant assessment for nuclear facility applications.",
+    "tags": [
+      "Nuclear",
+      "Seismic",
+      "SAP2000"
+    ]
+  }
+]
