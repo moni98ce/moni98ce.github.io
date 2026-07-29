@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Institutional Buildings">
+<defs>
+  <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#0b3d4a"/>
+    <stop offset="1" stop-color="#19788c"/>
+  </linearGradient>
+  <pattern id="p" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M0 48L48 0M24 48L48 24M0 24L24 0" stroke="#ffffff" stroke-opacity=".06" stroke-width="2"/>
+  </pattern>
+</defs>
+<rect width="1200" height="760" fill="url(#g)"/>
+<rect width="1200" height="760" fill="url(#p)"/>
+<circle cx="990" cy="120" r="210" fill="#ffffff" opacity=".06"/>
+<circle cx="1040" cy="180" r="110" fill="#ffffff" opacity=".06"/>
+<text x="76" y="150" fill="#f2b84b" font-family="Arial, sans-serif" font-size="82" font-weight="700">IB</text>
+<text x="76" y="545" fill="#ffffff" font-family="Georgia, serif" font-size="66" font-weight="700">Institutional Buildings</text>
+<text x="80" y="620" fill="#d7edf1" font-family="Arial, sans-serif" font-size="30">Academic and public facilities</text>
+</svg>
