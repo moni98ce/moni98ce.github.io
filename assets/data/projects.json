@@ -381,5 +381,142 @@
       "Applicable national codes"
     ],
     "employer": "Acumen Consulting / Prudential Consultants"
+  },
+  {
+    "slug": "gazipur-hi-tech-park",
+    "title": "Gazipur Hi-Tech Park",
+    "subtitle": "10-storey technology and office building",
+    "location": "Kaliakoir, Gazipur, Bangladesh",
+    "year": "Design project",
+    "category": "Buildings",
+    "image": "gazipur-hi-tech-park.jpg",
+    "featured": true,
+    "role": "Structural Engineer",
+    "facts": [
+      "10 storeys",
+      "Technology and office use",
+      "Reinforced-concrete building"
+    ],
+    "summary": "A 10-storey building developed for the Gazipur Hi-Tech Park, presented using the project image supplied for this portfolio.",
+    "highlights": [
+      "Structural analysis and design for gravity, wind, and seismic loading.",
+      "Reinforced-concrete framing and foundation coordination.",
+      "Multidisciplinary coordination and structural detailing."
+    ],
+    "codes": [
+      "BNBC",
+      "ACI 318"
+    ],
+    "employer": "Bangladesh project experience"
+  },
+  {
+    "slug": "telecommunication-towers",
+    "title": "Telecommunication Towers",
+    "subtitle": "Self-supporting lattice tower engineering",
+    "location": "Representative portfolio category",
+    "year": "Multiple assignments",
+    "category": "Towers",
+    "image": "lattice-tower.jpg",
+    "featured": true,
+    "role": "Structural Design Engineer",
+    "facts": [
+      "Lattice towers",
+      "Antenna and platform loads",
+      "Wind-sensitive structures"
+    ],
+    "summary": "Representative imagery illustrating experience with self-supporting telecommunication towers. The photograph is illustrative and is not identified as a specific project designed by Moniruzzaman Moni.",
+    "highlights": [
+      "Analysis and design for wind, antenna, appurtenance, and maintenance loads.",
+      "Steel member, connection, base plate, and foundation design.",
+      "Serviceability, stability, and constructability assessment."
+    ],
+    "codes": [
+      "CSA S37",
+      "TIA/EIA-222",
+      "AISC"
+    ],
+    "employer": "Consulting experience"
+  },
+  {
+    "slug": "guyed-masts",
+    "title": "Guyed Masts",
+    "subtitle": "Tall slender mast and guy-wire systems",
+    "location": "Representative portfolio category",
+    "year": "Multiple assignments",
+    "category": "Towers",
+    "image": "guyed-mast.jpg",
+    "featured": false,
+    "role": "Structural Design Engineer",
+    "facts": [
+      "Guy-wire systems",
+      "Mast stability",
+      "Wind response"
+    ],
+    "summary": "Representative imagery illustrating structural experience with guyed masts, including mast, guy-wire, anchorage, and foundation behaviour.",
+    "highlights": [
+      "Global mast and guy-wire analysis.",
+      "Member, connection, anchor, and foundation design.",
+      "Assessment of wind response and serviceability."
+    ],
+    "codes": [
+      "CSA S37",
+      "TIA/EIA-222"
+    ],
+    "employer": "Consulting experience"
+  },
+  {
+    "slug": "monopoles",
+    "title": "Monopoles",
+    "subtitle": "Telecommunication monopole structures",
+    "location": "Representative portfolio category",
+    "year": "Multiple assignments",
+    "category": "Towers",
+    "image": "monopole.jpg",
+    "featured": false,
+    "role": "Structural Design Engineer",
+    "facts": [
+      "Tapered pole systems",
+      "Antenna loading",
+      "Foundation design"
+    ],
+    "summary": "Representative imagery illustrating experience with telecommunications monopoles and related foundations.",
+    "highlights": [
+      "Pole strength and stability evaluation.",
+      "Base plate, anchor rod, and foundation design.",
+      "Wind and equipment-load assessment."
+    ],
+    "codes": [
+      "CSA S37",
+      "TIA/EIA-222"
+    ],
+    "employer": "Consulting experience"
+  },
+  {
+    "slug": "utility-poles",
+    "title": "Utility and Transmission Poles",
+    "subtitle": "Steel pole and support-structure engineering",
+    "location": "Representative portfolio category",
+    "year": "Multiple assignments",
+    "category": "Towers",
+    "image": "steel-pole.jpg",
+    "featured": false,
+    "role": "Structural Design Engineer",
+    "facts": [
+      "Steel poles",
+      "Utility loading",
+      "Foundation systems"
+    ],
+    "summary": "Representative imagery illustrating experience with steel utility and transmission support structures.",
+    "highlights": [
+      "Pole, attachment, and foundation design.",
+      "Wind, equipment, line, and operational-load assessment.",
+      "Strength, serviceability, and durability considerations."
+    ],
+    "codes": [
+      "CSA S37",
+      "CSA S16",
+      "Client standards"
+    ],
+    "employer": "Consulting experience"
   }
 ]
