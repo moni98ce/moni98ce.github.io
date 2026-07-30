@@ -1,13 +1,12 @@
-# Moniruzzaman Moni — Premium Professional Website
+# Moni Engineering Portfolio — Signature Edition 1.1
 
-## Publish on GitHub Pages
-1. Extract the ZIP.
-2. Upload every file and the entire `assets` folder to the root of `moni98ce.github.io`.
-3. Replace the old site files.
-4. In GitHub: Settings → Pages → Deploy from branch → `main` / root.
+Updated professional portfolio for Moniruzzaman Moni, PhD, P.Eng.
 
-## Update projects
-Edit `assets/data/projects.json`.
+## Version 1.1 updates
+- Added eight scholarships and academic awards across BUET, UBC, and the University of Toronto.
+- Added University of Toronto Research Travel Grant and Conference Travel Award.
+- Added scholarship details to education cards and a dedicated recognition layout.
+- Updated BUET and Professional Engineers Ontario logos using the user-supplied image files.
+- Added an academic excellence section to the homepage.
 
-## Image permission
-Use only project images you own or are authorized to publish. The current images were extracted from the project summary supplied by the site owner and should be reviewed before public publication.
+Upload all files and folders in this directory to the root of the GitHub Pages repository.
