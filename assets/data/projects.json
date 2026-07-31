@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "bradford-bypass-west",
+    "title": "Bradford Bypass West",
+    "subtitle": "Owner-side review for seven bridges and seven culverts under construction",
+    "location": "Ontario, Canada",
+    "year": "2026\u2013Present",
+    "category": "Bridges",
+    "image": "",
+    "featured": true,
+    "role": "Senior Structural Engineer / MTO structural representative",
+    "facts": [
+      "7 bridges",
+      "7 culverts",
+      "GWP 2026-23-00",
+      "Contract 2026-2005"
+    ],
+    "summary": "A major provincial highway contract from Highway 400 to east of County Road 4, involving new bridges, ramp structures, an underpass, structural culverts and custom overhead sign supports.",
+    "highlights": [
+      "Review structural design reports, calculations, drawings and construction submissions.",
+      "Support decisions involving piles, precast components, reinforcement detailing, steel fabrication and field clarifications.",
+      "Coordinate with design, foundations, construction, contract administration and specialist teams.",
+      "Preserve design records and decision pathways for future asset management."
+    ],
+    "codes": [
+      "CSA S6",
+      "MTO standards",
+      "OPSS / OPSD"
+    ],
+    "employer": "Ministry of Transportation Ontario"
+  },
+  {
+    "slug": "highway-400-simcoe-88",
+    "title": "Highway 400 & Simcoe Road 88 Interchange",
+    "subtitle": "Interchange reconstruction under active construction",
+    "location": "Ontario, Canada",
+    "year": "2026",
+    "category": "Bridges",
+    "image": "",
+    "featured": true,
+    "role": "Senior Structural Engineer",
+    "facts": [
+      "Contract 2024-2006",
+      "GWP 2331-16-00",
+      "Construction phase"
+    ],
+    "summary": "Construction-stage structural engineering support for a major interchange reconstruction project.",
+    "highlights": [
+      "Review construction submissions and structural clarifications.",
+      "Support foundation, pile and field engineering decisions.",
+      "Coordinate owner, consultant and contractor technical interfaces."
+    ],
+    "codes": [
+      "CSA S6",
+      "MTO standards"
+    ],
+    "employer": "Ministry of Transportation Ontario"
+  },
+  {
+    "slug": "hwy12-atherley",
+    "title": "Highway 12 & Atherley Narrows Rehabilitation",
+    "subtitle": "Multi-structure bridge rehabilitation planning and oversight",
+    "location": "Ontario, Canada",
+    "year": "2026",
+    "category": "Rehabilitation",
+    "image": "",
+    "featured": true,
+    "role": "Senior Structural Engineer",
+    "facts": [
+      "GWP 2084-23-00",
+      "Bridge rehabilitation",
+      "Owner-side leadership"
+    ],
+    "summary": "Rehabilitation planning involving deck condition, joints, waterproofing, paving, barriers and localized superstructure repairs.",
+    "highlights": [
+      "Develop scope and technical requirements.",
+      "Review condition information and consultant deliverables.",
+      "Support service-life and rehabilitation decisions."
+    ],
+    "codes": [
+      "CSA S6",
+      "MTO rehabilitation standards",
+      "OSIM"
+    ],
+    "employer": "Ministry of Transportation Ontario"
+  },
+  {
+    "slug": "telecom-towers",
+    "title": "Telecommunication Tower Design Portfolio",
+    "subtitle": "Self-supporting, rooftop, greenfield and monopole structures",
+    "location": "Bangladesh",
+    "year": "2005\u20132009",
+    "category": "Towers",
+    "image": "lattice-tower.jpg",
+    "featured": true,
+    "role": "Structural Design Engineer",
+    "facts": [
+      "12\u201375 m towers",
+      "10 m monopole",
+      "Multiple telecom vendors"
+    ],
+    "summary": "Design of communication tower superstructures and foundations for GrameenPhone, Ericsson Bangladesh, Motorola Bangladesh and Huawei Bangladesh.",
+    "highlights": [
+      "Designed self-supporting towers at 12, 15, 25, 32, 42, 52, 60 and 75 m heights.",
+      "Designed greenfield and rooftop foundations.",
+      "Designed a 10 m telescopic monopole.",
+      "Addressed wind, antenna, platform, feeder, serviceability and fabrication requirements."
+    ],
+    "codes": [
+      "BS 8100",
+      "EIA/TIA-222F",
+      "TIA-222G"
+    ],
+    "employer": "Acumen Consulting House Ltd. / consulting assignments"
+  },
+  {
+    "slug": "transmission-towers",
+    "title": "BREB Transmission Tower Program",
+    "subtitle": "Anchor and river-crossing lattice towers",
+    "location": "Bangladesh",
+    "year": "Design portfolio",
+    "category": "Transmission",
+    "image": "",
+    "featured": true,
+    "role": "Structural Designer",
+    "facts": [
+      "Anchor: 25\u201327 m",
+      "River crossing: 40\u201370 m",
+      "Wind up to 260 km/h"
+    ],
+    "summary": "A portfolio of four-legged free-standing lattice steel towers for the Bangladesh Rural Electrification Board transmission and distribution program.",
+    "highlights": [
+      "Designed anchor and river-crossing tower families.",
+      "Evaluated wind, conductor, earth-wire, temperature and broken-wire conditions.",
+      "Optimized member sizes for safety, serviceability and economy.",
+      "Specified steel, bolts, galvanization and welding requirements."
+    ],
+    "codes": [
+      "BS 8100",
+      "BNBC",
+      "BS 4360",
+      "BS 729",
+      "BS 5135"
+    ],
+    "employer": "Adroit Engineers / consulting assignments"
+  },
+  {
+    "slug": "30-merton",
+    "title": "30 Merton Street",
+    "subtitle": "37-storey mixed-use residential tower",
+    "location": "Toronto, Ontario",
+    "year": "Under construction",
+    "category": "Buildings",
+    "image": "30-merton.jpg",
+    "featured": true,
+    "role": "Structural Engineer",
+    "facts": [
+      "37 storeys",
+      "411 ft (125.3 m)",
+      "Approx. 460,000 sq. ft.",
+      "322 rental units"
+    ],
+    "summary": "A high-rise mixed-use development in Midtown Toronto with residential, retail, parking, and amenity spaces.",
+    "highlights": [
+      "Designed reinforced-concrete columns, shear walls, transfer slabs, and beams.",
+      "Supported design optimization for performance, constructability, and cost efficiency.",
+      "Reviewed shop drawings and coordinated structural requirements with the wider design team."
+    ],
+    "codes": [
+      "NBCC",
+      "OBC",
+      "CSA A23.3"
+    ],
+    "employer": "Stephenson Engineering"
+  },
+  {
+    "slug": "cowdray-court",
+    "title": "Cowdray Court Redevelopment",
+    "subtitle": "Block 6 high-rise residential tower",
+    "location": "Scarborough, Toronto",
+    "year": "Design development",
+    "category": "Buildings",
+    "image": "cowdray-court.jpg",
+    "featured": false,
+    "role": "Structural Engineer",
+    "facts": [
+      "32-storey tower",
+      "Seven-tower master plan",
+      "Transit-oriented community"
+    ],
+    "summary": "A multi-phase mixed-use redevelopment transforming former industrial lands into a new residential community.",
+    "highlights": [
+      "Led optimization of typical floor slabs to reduce concrete and reinforcement quantities.",
+      "Reviewed and refined the ETABS model, resolving modelling errors and unrealistic assumptions.",
+      "Validated load paths, stiffness distribution, and structural response under gravity and lateral loads."
+    ],
+    "codes": [
+      "NBCC",
+      "OBC",
+      "CSA A23.3"
+    ],
+    "employer": "Stephenson Engineering"
+  },
+  {
+    "slug": "ottawa-hospital",
+    "title": "The Ottawa Hospital \u2013 Civic Campus",
+    "subtitle": "Major healthcare redevelopment",
+    "location": "Ottawa, Ontario",
+    "year": "Under development",
+    "category": "Healthcare",
+    "image": "ottawa-hospital.jpg",
+    "featured": true,
+    "role": "Structural Engineer",
+    "facts": [
+      "2.5+ million sq. ft.",
+      "641 single-patient rooms",
+      "Progressive P3 delivery"
+    ],
+    "summary": "A major healthcare campus incorporating clinical, research, education, utility, and support facilities.",
+    "highlights": [
+      "Designed reinforced-concrete shear walls, coupling beams, slabs, and columns.",
+      "Assessed seismic irregularities for Tower B.",
+      "Designed steel ambulance parking structures and supervised slab and mat-foundation design work.",
+      "Participated in value engineering for performance, sustainability, and cost effectiveness."
+    ],
+    "codes": [
+      "NBCC",
+      "OBC",
+      "CSA A23.3",
+      "CSA S16"
+    ],
+    "employer": "Stephenson Engineering"
+  },
+  {
+    "slug": "gazipur-medical-college",
+    "title": "Shaheed Tajuddin Ahmad Medical College",
+    "subtitle": "15-storey academic building",
+    "location": "Gazipur, Bangladesh",
+    "year": "Completed 2014",
+    "category": "Healthcare",
+    "image": "gazipur-medical-college.png",
+    "featured": false,
+    "role": "Structural Engineer",
+    "facts": [
+      "15 storeys",
+      "Approx. 200,000 sq. ft.",
+      "Precast pile foundation",
+      "Two-way ribbed slabs"
+    ],
+    "summary": "A reinforced-concrete academic building serving medical education and administration.",
+    "highlights": [
+      "Led structural analysis and design of the RCC framing and lateral-load-resisting system.",
+      "Designed a two-way ribbed slab system for efficient long-span academic spaces.",
+      "Coordinated geotechnical requirements and the precast pile foundation system.",
+      "Reviewed construction documents and monitored site execution."
+    ],
+    "codes": [
+      "ACI 318",
+      "Bangladesh National Building Code"
+    ],
+    "employer": "Public Works Department"
+  },
+  {
+    "slug": "smart-knit",
+    "title": "Smart Knit Industrial Rehabilitation",
+    "subtitle": "Seismic rehabilitation of a six-storey facility",
+    "location": "Bangladesh",
+    "year": "Completed 2015",
+    "category": "Rehabilitation",
+    "image": "smart-knit.jpg",
+    "featured": false,
+    "role": "Structural Engineer",
+    "facts": [
+      "6 storeys",
+      "Approx. 60,000 sq. ft.",
+      "JICA collaboration"
+    ],
+    "summary": "Assessment and seismic rehabilitation of an existing reinforced-concrete industrial building.",
+    "highlights": [
+      "Identified structural and seismic deficiencies through detailed assessment.",
+      "Designed foundation extensions, column jacketing, and new reinforced-concrete shear walls.",
+      "Collaborated with JICA experts on the rehabilitation strategy.",
+      "Supervised retrofit construction and quality compliance."
+    ],
+    "codes": [
+      "Performance-based seismic assessment",
+      "International retrofit practice"
+    ],
+    "employer": "Public Works Department"
+  },
+  {
+    "slug": "midas-centre",
+    "title": "Midas Centre",
+    "subtitle": "12-storey commercial building",
+    "location": "Dhanmondi, Dhaka",
+    "year": "Completed 2008",
+    "category": "Buildings",
+    "image": "midas-centre.png",
+    "featured": false,
+    "role": "Structural Engineer",
+    "facts": [
+      "12 storeys",
+      "Two basement levels",
+      "Approx. 90,000 sq. ft.",
+      "Flat slabs and mat foundation"
+    ],
+    "summary": "A commercial reinforced-concrete tower with two levels of underground parking.",
+    "highlights": [
+      "Led structural analysis and design of the tower and basement levels.",
+      "Designed the mat foundation for challenging subsoil conditions.",
+      "Used flat-slab construction to improve floor-height efficiency and construction logistics.",
+      "Coordinated structural systems with architecture and building services."
+    ],
+    "codes": [
+      "ACI 318"
+    ],
+    "employer": "Acumen Consulting House Ltd."
+  },
+  {
+    "slug": "kuril-flyover",
+    "title": "Kuril Flyover",
+    "subtitle": "3.1 km urban grade-separation system",
+    "location": "Dhaka, Bangladesh",
+    "year": "Completed 2013",
+    "category": "Bridges",
+    "image": "kuril-flyover.png",
+    "featured": true,
+    "role": "Structural Engineer / Project Leadership",
+    "facts": [
+      "3.1 km total length",
+      "Prestressed and RCC box girders",
+      "Two Y-loops and two U-loops",
+      "BDT 3.06 billion"
+    ],
+    "summary": "A major multi-level urban flyover connecting key corridors in northern Dhaka.",
+    "highlights": [
+      "Contributed to structural analysis and design of prestressed and reinforced-concrete box-girder systems.",
+      "Supported the integration of complex Y-loop and U-loop geometry.",
+      "Coordinated multidisciplinary design and construction requirements.",
+      "Contributed to project-management and contract-administration activities."
+    ],
+    "codes": [
+      "AASHTO",
+      "Project specifications"
+    ],
+    "employer": "Acumen Consulting House Ltd. / project delivery roles"
+  },
+  {
+    "slug": "surma-bridge",
+    "title": "Surma (Kazir Bazar) Bridge",
+    "subtitle": "Prestressed concrete river crossing",
+    "location": "Sylhet, Bangladesh",
+    "year": "Completed",
+    "category": "Bridges",
+    "image": "",
+    "featured": false,
+    "role": "Structural Engineer",
+    "facts": [
+      "Approx. 366 m total length",
+      "35 m and 50 m girder spans",
+      "River crossing"
+    ],
+    "summary": "A prestressed-concrete bridge across the Surma River, designed for demanding hydraulic, foundation, and staging conditions.",
+    "highlights": [
+      "Designed prestressed girders, piers, and foundation components.",
+      "Addressed material efficiency and construction-staging requirements.",
+      "Applied bridge-analysis and design procedures for long-span river-crossing conditions."
+    ],
+    "codes": [
+      "AASHTO"
+    ],
+    "employer": "Acumen Consulting House Ltd."
+  }
+]
