@@ -1,0 +1,1 @@
+Version 2.5: reduced portrait size and replaced category cards with a flow-chart style structural practice map. Upload all files in the folder to the GitHub repository root. Commit: Publish Version 2.5 smart flowchart homepage.
