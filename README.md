@@ -1,14 +1,15 @@
-# Moni Engineering Portfolio — Signature Edition 1.4
+# Moniruzzaman Moni — Signature Edition 1.4
 
-Updated professional portfolio for Moniruzzaman Moni, PhD, P.Eng.
+Professional portfolio website for Moniruzzaman Moni, PhD, P.Eng.
 
-## Version 1.4 updates
-- Updated all canonical URLs from the GitHub Pages address to `https://moniruzzamanmoni.com`.
-- Added complete Open Graph and X/Twitter sharing metadata to every page.
-- Added a new 1200 × 630 branded social-sharing image.
-- Updated page titles and search descriptions for stronger professional presentation.
-- Updated `robots.txt` and `sitemap.xml` for the custom domain.
-- Added favicon and Apple touch icon files.
-- Added a `CNAME` file so the GitHub Pages custom domain remains configured after upload.
+**Production URL:** https://moniruzzamanmoni.com
 
-Upload all files and folders in this directory to the root of the GitHub Pages repository.
+## Version 1.4
+- Custom-domain migration
+- Canonical URLs and page-specific SEO metadata
+- Open Graph and X/Twitter social-sharing metadata
+- 1200 × 630 social-preview image
+- Person structured data (Schema.org JSON-LD)
+- Updated sitemap, robots.txt, favicons, and CNAME
+
+Deploy the contents of this folder to the root of the `moni98ce.github.io` repository.
