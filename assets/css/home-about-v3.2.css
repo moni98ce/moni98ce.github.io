@@ -234,3 +234,19 @@
   .x32-cta-grid{display:block}
   .x32-cta .x32-btn{margin-top:18px}
 }
+
+
+/* Version 3.3 — six-item homepage evidence strip */
+.x32-proof-grid-six{grid-template-columns:repeat(6,1fr)}
+.x32-proof-grid-six strong{font-size:1.65rem}
+@media(max-width:1120px){
+  .x32-proof-grid-six{grid-template-columns:repeat(3,1fr)}
+  .x32-proof-grid-six div:nth-child(3n){border-right:0}
+  .x32-proof-grid-six div:nth-child(-n+3){border-bottom:1px solid var(--x32-line)}
+}
+@media(max-width:720px){
+  .x32-proof-grid-six{grid-template-columns:1fr 1fr}
+  .x32-proof-grid-six div:nth-child(3n){border-right:1px solid var(--x32-line)}
+  .x32-proof-grid-six div:nth-child(2n){border-right:0}
+  .x32-proof-grid-six div{border-bottom:1px solid var(--x32-line)}
+}
