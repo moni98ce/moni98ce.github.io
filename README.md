@@ -1,15 +1,16 @@
-# Moniruzzaman Moni — Signature Edition 1.4
+# Moni Engineering Portfolio — Signature Edition 1.5
 
-Professional portfolio website for Moniruzzaman Moni, PhD, P.Eng.
+A GitHub Pages-ready professional website for Moniruzzaman Moni, PhD, P.Eng.
 
-**Production URL:** https://moniruzzamanmoni.com
+## Version 1.5 additions
+- Practice Areas page covering bridges, buildings, communication towers, utility structures, nuclear structures, advanced analysis, and research
+- Technical Standards page
+- Software Expertise page containing only confirmed tools
+- Engineering Insights page
+- Updated homepage competencies and practice-area cards
+- Updated About and Contact expertise content
+- Web3Forms contact integration
+- WebSite, Person, and ProfilePage structured data
+- Updated sitemap, robots.txt, CNAME, navigation, and footer
 
-## Version 1.4
-- Custom-domain migration
-- Canonical URLs and page-specific SEO metadata
-- Open Graph and X/Twitter social-sharing metadata
-- 1200 × 630 social-preview image
-- Person structured data (Schema.org JSON-LD)
-- Updated sitemap, robots.txt, favicons, and CNAME
-
-Deploy the contents of this folder to the root of the `moni98ce.github.io` repository.
+Upload all files and folders inside this directory to the repository root.
