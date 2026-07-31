@@ -1,0 +1,312 @@
+
+/* =========================================================
+   REFINEMENTS V4.1 — HOME, ABOUT AND STANDARDS
+   ========================================================= */
+
+/* Home section headings no longer reserve a blank explanatory column */
+.home-v4 .hv4-section-heading{
+  display:block;
+  max-width:920px;
+}
+.home-v4 .hv4-section-heading h2{
+  max-width:900px;
+}
+
+/* About degree cards with actual university logos */
+.x32-school-logo{
+  display:grid;
+  place-items:center;
+  flex:0 0 64px;
+  width:64px;
+  height:64px;
+  padding:8px;
+  border:1px solid #d9e2e8;
+  border-radius:16px;
+  background:#fff;
+}
+.x32-school-logo img{
+  display:block;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+}
+.x32-degree:nth-child(1) .x32-school-logo img{
+  max-width:48px;
+}
+.x32-degree:nth-child(2) .x32-school-logo img{
+  max-width:48px;
+}
+.x32-degree:nth-child(3) .x32-school-logo img{
+  max-width:52px;
+}
+.x32-head:has(.x32-eyebrow + h2){
+  grid-template-columns:1fr;
+}
+
+/* Standards page */
+.std41-page{
+  --s41-navy:#071a2b;
+  --s41-navy2:#0d344b;
+  --s41-teal:#0d7881;
+  --s41-gold:#d48a1d;
+  --s41-ink:#142a3b;
+  --s41-muted:#647889;
+  --s41-paper:#f4f7f9;
+  --s41-line:#d9e2e8;
+  color:var(--s41-ink);
+  background:#fff;
+}
+.std41-container{
+  width:min(1180px,calc(100% - 40px));
+  margin:0 auto;
+}
+.std41-eyebrow{
+  color:var(--s41-gold);
+  font-size:.72rem;
+  font-weight:850;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+}
+.std41-hero{
+  color:#fff;
+  padding:78px 0 66px;
+  background:
+    radial-gradient(circle at 86% 16%,rgba(16,132,140,.26),transparent 24%),
+    linear-gradient(122deg,#061827 0%,#0a2c43 65%,#0e5962 100%);
+}
+.std41-hero h1{
+  max-width:980px;
+  margin:.5rem 0 1rem;
+  font-size:clamp(3rem,6vw,6.2rem);
+  line-height:.92;
+  letter-spacing:-.07em;
+}
+.std41-hero p{
+  max-width:760px;
+  color:#d8e6ec;
+  font-size:1.03rem;
+  line-height:1.75;
+}
+.std41-section{
+  padding:76px 0;
+}
+.std41-nav-section{
+  padding:20px 0;
+  border-bottom:1px solid var(--s41-line);
+  background:#fff;
+  position:sticky;
+  top:74px;
+  z-index:10;
+}
+.std41-discipline-nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.std41-discipline-nav a{
+  padding:8px 12px;
+  border-radius:999px;
+  background:#eef3f6;
+  color:#456072;
+  font-size:.76rem;
+  font-weight:800;
+  text-decoration:none;
+}
+.std41-discipline-nav a:hover{
+  background:var(--s41-navy);
+  color:#fff;
+}
+.std41-grid-section{
+  background:var(--s41-paper);
+}
+.std41-standards-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+}
+.std41-standard-card{
+  position:relative;
+  overflow:hidden;
+  padding:30px;
+  border:1px solid var(--s41-line);
+  border-radius:24px;
+  background:#fff;
+  box-shadow:0 14px 38px rgba(17,47,66,.07);
+}
+.std41-standard-card::before{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  height:5px;
+  background:var(--s41-teal);
+}
+.std41-standard-card.buildings::before{background:#d18b20}
+.std41-standard-card.communication::before{background:#52639a}
+.std41-standard-card.transmission::before{background:#6c4f8b}
+.std41-standard-card.nuclear::before{background:#9d4d56}
+.std41-standard-card.materials::before{background:#4a6b59}
+.std41-card-number{
+  position:absolute;
+  right:24px;
+  top:12px;
+  color:#edf2f5;
+  font-size:4.2rem;
+  font-weight:900;
+  line-height:1;
+}
+.std41-card-head{
+  position:relative;
+  z-index:1;
+}
+.std41-card-head span{
+  display:block;
+  color:var(--s41-gold);
+  font-size:.68rem;
+  font-weight:850;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.std41-card-head h2{
+  margin:.45rem 0 .9rem;
+  color:var(--s41-navy);
+  font-size:2.1rem;
+  line-height:1;
+  letter-spacing:-.04em;
+}
+.std41-standard-card>p{
+  color:var(--s41-muted);
+  line-height:1.65;
+}
+.std41-code-groups{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+  margin-top:24px;
+}
+.std41-code-groups>div{
+  padding:17px;
+  border-radius:15px;
+  background:#f3f6f8;
+}
+.std41-code-groups strong{
+  display:block;
+  color:var(--s41-navy);
+  font-size:.78rem;
+  text-transform:uppercase;
+  letter-spacing:.07em;
+}
+.std41-code-groups ul{
+  margin:11px 0 0;
+  padding-left:18px;
+}
+.std41-code-groups li{
+  padding:3px 0;
+  color:#536a7b;
+  font-size:.78rem;
+  line-height:1.4;
+}
+.std41-application{
+  margin-top:20px;
+  padding-top:17px;
+  border-top:1px solid var(--s41-line);
+  color:#526879;
+  font-size:.78rem;
+  line-height:1.5;
+}
+.std41-software-section{
+  background:#fff;
+}
+.std41-heading h2{
+  max-width:900px;
+  margin:.35rem 0 34px;
+  color:var(--s41-navy);
+  font-size:clamp(2.4rem,4.6vw,4.7rem);
+  line-height:.96;
+  letter-spacing:-.055em;
+}
+.std41-software-groups{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+.std41-software-groups article{
+  padding:24px;
+  border:1px solid var(--s41-line);
+  border-radius:20px;
+  background:#fff;
+}
+.std41-software-groups h3{
+  margin:0 0 16px;
+  color:var(--s41-navy);
+  font-size:1rem;
+}
+.std41-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.std41-tags span{
+  padding:7px 10px;
+  border-radius:999px;
+  background:#eef3f6;
+  color:#4c6576;
+  font-size:.72rem;
+  font-weight:750;
+}
+.std41-cta{
+  padding:62px 0;
+  color:#fff;
+  background:linear-gradient(120deg,#0a2d43,#0d6870);
+}
+.std41-cta-grid{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:32px;
+}
+.std41-cta h2{
+  max-width:850px;
+  margin:.35rem 0;
+  font-size:clamp(2.35rem,4.4vw,4.6rem);
+  line-height:.96;
+  letter-spacing:-.055em;
+}
+.std41-cta a{
+  flex:0 0 auto;
+  padding:12px 18px;
+  border-radius:999px;
+  background:var(--s41-gold);
+  color:#081a2a;
+  font-weight:850;
+  text-decoration:none;
+}
+
+@media(max-width:950px){
+  .std41-standards-grid,
+  .std41-software-groups{
+    grid-template-columns:1fr;
+  }
+  .std41-nav-section{
+    position:static;
+  }
+}
+@media(max-width:680px){
+  .std41-container{
+    width:min(100% - 24px,1180px);
+  }
+  .std41-hero h1{
+    font-size:clamp(2.7rem,13vw,4.35rem);
+  }
+  .std41-code-groups{
+    grid-template-columns:1fr;
+  }
+  .std41-cta-grid{
+    display:block;
+  }
+  .std41-cta a{
+    display:inline-flex;
+    margin-top:18px;
+  }
+}
