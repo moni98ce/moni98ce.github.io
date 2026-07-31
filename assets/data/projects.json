@@ -1,5 +1,150 @@
 [
   {
+    "slug": "bradford-bypass-west",
+    "title": "Bradford Bypass West",
+    "subtitle": "Owner-side review for seven bridges and seven culverts under construction",
+    "location": "Ontario, Canada",
+    "year": "2026\u2013Present",
+    "category": "Bridges",
+    "image": "",
+    "featured": true,
+    "role": "Senior Structural Engineer / MTO structural representative",
+    "facts": [
+      "7 bridges",
+      "7 culverts",
+      "GWP 2026-23-00",
+      "Contract 2026-2005"
+    ],
+    "summary": "A major provincial highway contract from Highway 400 to east of County Road 4, involving new bridges, ramp structures, an underpass, structural culverts and custom overhead sign supports.",
+    "highlights": [
+      "Review structural design reports, calculations, drawings and construction submissions.",
+      "Support decisions involving piles, precast components, reinforcement detailing, steel fabrication and field clarifications.",
+      "Coordinate with design, foundations, construction, contract administration and specialist teams.",
+      "Preserve design records and decision pathways for future asset management."
+    ],
+    "codes": [
+      "CSA S6",
+      "MTO standards",
+      "OPSS / OPSD"
+    ],
+    "employer": "Ministry of Transportation Ontario"
+  },
+  {
+    "slug": "highway-400-simcoe-88",
+    "title": "Highway 400 & Simcoe Road 88 Interchange",
+    "subtitle": "Interchange reconstruction under active construction",
+    "location": "Ontario, Canada",
+    "year": "2026",
+    "category": "Bridges",
+    "image": "",
+    "featured": true,
+    "role": "Senior Structural Engineer",
+    "facts": [
+      "Contract 2024-2006",
+      "GWP 2331-16-00",
+      "Construction phase"
+    ],
+    "summary": "Construction-stage structural engineering support for a major interchange reconstruction project.",
+    "highlights": [
+      "Review construction submissions and structural clarifications.",
+      "Support foundation, pile and field engineering decisions.",
+      "Coordinate owner, consultant and contractor technical interfaces."
+    ],
+    "codes": [
+      "CSA S6",
+      "MTO standards"
+    ],
+    "employer": "Ministry of Transportation Ontario"
+  },
+  {
+    "slug": "hwy12-atherley",
+    "title": "Highway 12 & Atherley Narrows Rehabilitation",
+    "subtitle": "Multi-structure bridge rehabilitation planning and oversight",
+    "location": "Ontario, Canada",
+    "year": "2026",
+    "category": "Rehabilitation",
+    "image": "",
+    "featured": true,
+    "role": "Senior Structural Engineer",
+    "facts": [
+      "GWP 2084-23-00",
+      "Bridge rehabilitation",
+      "Owner-side leadership"
+    ],
+    "summary": "Rehabilitation planning involving deck condition, joints, waterproofing, paving, barriers and localized superstructure repairs.",
+    "highlights": [
+      "Develop scope and technical requirements.",
+      "Review condition information and consultant deliverables.",
+      "Support service-life and rehabilitation decisions."
+    ],
+    "codes": [
+      "CSA S6",
+      "MTO rehabilitation standards",
+      "OSIM"
+    ],
+    "employer": "Ministry of Transportation Ontario"
+  },
+  {
+    "slug": "telecom-towers",
+    "title": "Telecommunication Tower Design Portfolio",
+    "subtitle": "Self-supporting, rooftop, greenfield and monopole structures",
+    "location": "Bangladesh",
+    "year": "2005\u20132009",
+    "category": "Towers",
+    "image": "lattice-tower.jpg",
+    "featured": true,
+    "role": "Structural Design Engineer",
+    "facts": [
+      "12\u201375 m towers",
+      "10 m monopole",
+      "Multiple telecom vendors"
+    ],
+    "summary": "Design of communication tower superstructures and foundations for GrameenPhone, Ericsson Bangladesh, Motorola Bangladesh and Huawei Bangladesh.",
+    "highlights": [
+      "Designed self-supporting towers at 12, 15, 25, 32, 42, 52, 60 and 75 m heights.",
+      "Designed greenfield and rooftop foundations.",
+      "Designed a 10 m telescopic monopole.",
+      "Addressed wind, antenna, platform, feeder, serviceability and fabrication requirements."
+    ],
+    "codes": [
+      "BS 8100",
+      "EIA/TIA-222F",
+      "TIA-222G"
+    ],
+    "employer": "Acumen Consulting House Ltd. / consulting assignments"
+  },
+  {
+    "slug": "transmission-towers",
+    "title": "BREB Transmission Tower Program",
+    "subtitle": "Anchor and river-crossing lattice towers",
+    "location": "Bangladesh",
+    "year": "Design portfolio",
+    "category": "Transmission",
+    "image": "",
+    "featured": true,
+    "role": "Structural Designer",
+    "facts": [
+      "Anchor: 25\u201327 m",
+      "River crossing: 40\u201370 m",
+      "Wind up to 260 km/h"
+    ],
+    "summary": "A portfolio of four-legged free-standing lattice steel towers for the Bangladesh Rural Electrification Board transmission and distribution program.",
+    "highlights": [
+      "Designed anchor and river-crossing tower families.",
+      "Evaluated wind, conductor, earth-wire, temperature and broken-wire conditions.",
+      "Optimized member sizes for safety, serviceability and economy.",
+      "Specified steel, bolts, galvanization and welding requirements."
+    ],
+    "codes": [
+      "BS 8100",
+      "BNBC",
+      "BS 4360",
+      "BS 729",
+      "BS 5135"
+    ],
+    "employer": "Adroit Engineers / consulting assignments"
+  },
+  {
     "slug": "30-merton",
     "title": "30 Merton Street",
     "subtitle": "37-storey mixed-use residential tower",
@@ -36,7 +181,7 @@
     "year": "Design development",
     "category": "Buildings",
     "image": "cowdray-court.jpg",
-    "featured": true,
+    "featured": false,
     "role": "Structural Engineer",
     "facts": [
       "32-storey tower",
@@ -94,7 +239,7 @@
     "year": "Completed 2014",
     "category": "Healthcare",
     "image": "gazipur-medical-college.png",
-    "featured": true,
+    "featured": false,
     "role": "Structural Engineer",
     "facts": [
       "15 storeys",
@@ -123,7 +268,7 @@
     "year": "Completed 2015",
     "category": "Rehabilitation",
     "image": "smart-knit.jpg",
-    "featured": true,
+    "featured": false,
     "role": "Structural Engineer",
     "facts": [
       "6 storeys",
@@ -151,7 +296,7 @@
     "year": "Completed 2008",
     "category": "Buildings",
     "image": "midas-centre.png",
-    "featured": true,
+    "featured": false,
     "role": "Structural Engineer",
     "facts": [
       "12 storeys",
@@ -208,7 +353,7 @@
     "year": "Completed",
     "category": "Bridges",
     "image": "",
-    "featured": true,
+    "featured": false,
     "role": "Structural Engineer",
     "facts": [
       "Approx. 366 m total length",
@@ -225,298 +370,5 @@
       "AASHTO"
     ],
     "employer": "Acumen Consulting House Ltd."
-  },
-  {
-    "slug": "gazipur-hitech",
-    "title": "Gazipur Hi-Tech Park",
-    "subtitle": "10-storey technology-sector building",
-    "location": "Gazipur, Bangladesh",
-    "year": "Completed / project portfolio",
-    "category": "Buildings",
-    "image": "",
-    "featured": false,
-    "role": "Principal Structural Engineer",
-    "facts": [
-      "10 storeys",
-      "Technology campus building"
-    ],
-    "summary": "A multi-storey reinforced-concrete building within the Gazipur Hi-Tech Park development.",
-    "highlights": [
-      "Structural analysis and design for gravity, wind, and seismic loading.",
-      "Reinforced-concrete framing and foundation design.",
-      "Design coordination and technical leadership."
-    ],
-    "codes": [
-      "Applicable national building codes"
-    ],
-    "employer": "Prudential Consultants"
-  },
-  {
-    "slug": "east-west-university",
-    "title": "East West University Campus",
-    "subtitle": "University and institutional facilities",
-    "location": "Dhaka, Bangladesh",
-    "year": "Completed / project portfolio",
-    "category": "Education",
-    "image": "",
-    "featured": false,
-    "role": "Structural Engineer",
-    "facts": [
-      "Institutional building",
-      "University campus"
-    ],
-    "summary": "Structural engineering services for major higher-education facilities.",
-    "highlights": [
-      "Reinforced-concrete structural design.",
-      "Coordination with architectural and building-services teams.",
-      "Foundation and lateral-system design."
-    ],
-    "codes": [
-      "ACI 318",
-      "Applicable national codes"
-    ],
-    "employer": "Acumen Consulting House Ltd."
-  },
-  {
-    "slug": "kushtia-medical-college",
-    "title": "Kushtia Medical College",
-    "subtitle": "Medical education and healthcare facilities",
-    "location": "Kushtia, Bangladesh",
-    "year": "Project portfolio",
-    "category": "Healthcare",
-    "image": "",
-    "featured": false,
-    "role": "Structural Engineer / Project Leadership",
-    "facts": [
-      "Medical college facilities",
-      "Institutional infrastructure"
-    ],
-    "summary": "Structural engineering for medical education and associated institutional facilities.",
-    "highlights": [
-      "Structural planning, analysis, and design.",
-      "Gravity, wind, and seismic design considerations.",
-      "Construction coordination and technical review."
-    ],
-    "codes": [
-      "Applicable national building codes"
-    ],
-    "employer": "Public Works Department / consulting practice"
-  },
-  {
-    "slug": "sirajganj-hospital",
-    "title": "Sirajganj Hospital",
-    "subtitle": "Healthcare building project",
-    "location": "Sirajganj, Bangladesh",
-    "year": "Project portfolio",
-    "category": "Healthcare",
-    "image": "",
-    "featured": false,
-    "role": "Structural Engineer / Project Leadership",
-    "facts": [
-      "Healthcare facility",
-      "Public infrastructure"
-    ],
-    "summary": "Structural engineering services for a public healthcare facility.",
-    "highlights": [
-      "Structural analysis and reinforced-concrete design.",
-      "Foundation and lateral-load-resisting-system design.",
-      "Design coordination and construction support."
-    ],
-    "codes": [
-      "Applicable national building codes"
-    ],
-    "employer": "Public Works Department / consulting practice"
-  },
-  {
-    "slug": "nuclear-heavy-lift",
-    "title": "Nuclear Heavy-Lift Equipment Qualification",
-    "subtitle": "Seismic structural qualification",
-    "location": "Ontario, Canada",
-    "year": "2023\u20132026",
-    "category": "Nuclear",
-    "image": "",
-    "featured": false,
-    "role": "Structural Engineer",
-    "facts": [
-      "Response-spectrum analysis",
-      "Heavy equipment support",
-      "Safety-focused engineering"
-    ],
-    "summary": "Structural and seismic qualification of heavy-lift equipment and support systems for a nuclear facility.",
-    "highlights": [
-      "Developed SAP2000 response-spectrum models.",
-      "Applied nuclear load combinations and structural qualification requirements.",
-      "Prepared code-compliant engineering calculations and technical deliverables."
-    ],
-    "codes": [
-      "CSA N289",
-      "CSA N291"
-    ],
-    "employer": "Stephenson Engineering / Salas O'Brien"
-  },
-  {
-    "slug": "telecom-towers",
-    "title": "Communication Towers and Guyed Masts",
-    "subtitle": "Telecommunication structural systems",
-    "location": "Bangladesh and international portfolio",
-    "year": "2005\u20132015",
-    "category": "Towers",
-    "image": "",
-    "featured": false,
-    "role": "Structural Engineer / Principal Structural Engineer",
-    "facts": [
-      "Self-supporting towers",
-      "Guyed masts",
-      "Monopoles and poles"
-    ],
-    "summary": "Analysis and design of telecommunication towers, guyed masts, monopoles, and associated foundations.",
-    "highlights": [
-      "Wind-load analysis and steel-member design.",
-      "Foundation and anchorage design.",
-      "Structural detailing, checking, and design-team leadership."
-    ],
-    "codes": [
-      "TIA/EIA standards",
-      "AISC",
-      "Applicable national codes"
-    ],
-    "employer": "Acumen Consulting / Prudential Consultants"
-  },
-  {
-    "slug": "gazipur-hi-tech-park",
-    "title": "Gazipur Hi-Tech Park",
-    "subtitle": "10-storey technology and office building",
-    "location": "Kaliakoir, Gazipur, Bangladesh",
-    "year": "Design project",
-    "category": "Buildings",
-    "image": "gazipur-hi-tech-park.jpg",
-    "featured": true,
-    "role": "Structural Engineer",
-    "facts": [
-      "10 storeys",
-      "Technology and office use",
-      "Reinforced-concrete building"
-    ],
-    "summary": "A 10-storey building developed for the Gazipur Hi-Tech Park, presented using the project image supplied for this portfolio.",
-    "highlights": [
-      "Structural analysis and design for gravity, wind, and seismic loading.",
-      "Reinforced-concrete framing and foundation coordination.",
-      "Multidisciplinary coordination and structural detailing."
-    ],
-    "codes": [
-      "BNBC",
-      "ACI 318"
-    ],
-    "employer": "Bangladesh project experience"
-  },
-  {
-    "slug": "telecommunication-towers",
-    "title": "Telecommunication Towers",
-    "subtitle": "Self-supporting lattice tower engineering",
-    "location": "Representative portfolio category",
-    "year": "Multiple assignments",
-    "category": "Towers",
-    "image": "lattice-tower.jpg",
-    "featured": true,
-    "role": "Structural Design Engineer",
-    "facts": [
-      "Lattice towers",
-      "Antenna and platform loads",
-      "Wind-sensitive structures"
-    ],
-    "summary": "Representative imagery illustrating experience with self-supporting telecommunication towers. The photograph is illustrative and is not identified as a specific project designed by Moniruzzaman Moni.",
-    "highlights": [
-      "Analysis and design for wind, antenna, appurtenance, and maintenance loads.",
-      "Steel member, connection, base plate, and foundation design.",
-      "Serviceability, stability, and constructability assessment."
-    ],
-    "codes": [
-      "CSA S37",
-      "TIA/EIA-222",
-      "AISC"
-    ],
-    "employer": "Consulting experience"
-  },
-  {
-    "slug": "guyed-masts",
-    "title": "Guyed Masts",
-    "subtitle": "Tall slender mast and guy-wire systems",
-    "location": "Representative portfolio category",
-    "year": "Multiple assignments",
-    "category": "Towers",
-    "image": "guyed-mast.jpg",
-    "featured": false,
-    "role": "Structural Design Engineer",
-    "facts": [
-      "Guy-wire systems",
-      "Mast stability",
-      "Wind response"
-    ],
-    "summary": "Representative imagery illustrating structural experience with guyed masts, including mast, guy-wire, anchorage, and foundation behaviour.",
-    "highlights": [
-      "Global mast and guy-wire analysis.",
-      "Member, connection, anchor, and foundation design.",
-      "Assessment of wind response and serviceability."
-    ],
-    "codes": [
-      "CSA S37",
-      "TIA/EIA-222"
-    ],
-    "employer": "Consulting experience"
-  },
-  {
-    "slug": "monopoles",
-    "title": "Monopoles",
-    "subtitle": "Telecommunication monopole structures",
-    "location": "Representative portfolio category",
-    "year": "Multiple assignments",
-    "category": "Towers",
-    "image": "monopole.jpg",
-    "featured": false,
-    "role": "Structural Design Engineer",
-    "facts": [
-      "Tapered pole systems",
-      "Antenna loading",
-      "Foundation design"
-    ],
-    "summary": "Representative imagery illustrating experience with telecommunications monopoles and related foundations.",
-    "highlights": [
-      "Pole strength and stability evaluation.",
-      "Base plate, anchor rod, and foundation design.",
-      "Wind and equipment-load assessment."
-    ],
-    "codes": [
-      "CSA S37",
-      "TIA/EIA-222"
-    ],
-    "employer": "Consulting experience"
-  },
-  {
-    "slug": "utility-poles",
-    "title": "Utility and Transmission Poles",
-    "subtitle": "Steel pole and support-structure engineering",
-    "location": "Representative portfolio category",
-    "year": "Multiple assignments",
-    "category": "Towers",
-    "image": "steel-pole.jpg",
-    "featured": false,
-    "role": "Structural Design Engineer",
-    "facts": [
-      "Steel poles",
-      "Utility loading",
-      "Foundation systems"
-    ],
-    "summary": "Representative imagery illustrating experience with steel utility and transmission support structures.",
-    "highlights": [
-      "Pole, attachment, and foundation design.",
-      "Wind, equipment, line, and operational-load assessment.",
-      "Strength, serviceability, and durability considerations."
-    ],
-    "codes": [
-      "CSA S37",
-      "CSA S16",
-      "Client standards"
-    ],
-    "employer": "Consulting experience"
   }
 ]
