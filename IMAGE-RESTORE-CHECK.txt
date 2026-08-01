@@ -1,0 +1,13 @@
+Restored images:
+assets/images/30-merton.jpg
+assets/images/bradford-bypass-west.png
+assets/images/favicon-32.png
+assets/images/gazipur-medical-college.png
+assets/images/guyed-mast.jpg
+assets/images/kuril-flyover.png
+assets/images/lattice-tower.jpg
+assets/images/logo-peo.jpg
+assets/images/ottawa-hospital.jpg
+assets/images/profile-social.jpg
+assets/images/profile.jpg
+assets/images/steel-pole.jpg
