@@ -1,0 +1,22 @@
+REPAIRED REPOSITORY PACKAGE
+
+This package restores:
+- assets/css/main.css
+- assets/css/v6.css
+- assets/js/app.js
+
+It also replaces:
+- index.html
+- about.html
+- research.html
+- contact.html
+
+Important correction:
+Inline CSS image paths were changed from ../images/... to assets/images/...
+because inline <style> URLs resolve relative to the HTML page.
+
+Verification after deployment:
+1. Open https://moniruzzamanmoni.com/assets/css/main.css?v=20260801
+2. Open https://moniruzzamanmoni.com/assets/css/v6.css?v=20260801
+3. Open https://moniruzzamanmoni.com/assets/js/app.js?v=20260801
+Each URL must display file content, not a 404 page.

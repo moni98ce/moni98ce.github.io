@@ -1,135 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Research | Moniruzzaman Moni, PhD, P.Eng.</title>
-<meta name="description" content="Research in real-time aeroelastic hybrid simulation, structural dynamics and shape-memory-alloy reinforced concrete.">
-<style>
-:root{
-  --navy:#071927;
-  --navy2:#0d3a50;
-  --teal:#0d7881;
-  --gold:#d28b20;
-  --ink:#122638;
-  --muted:#607587;
-  --paper:#f3f6f8;
-  --line:#d8e2e8;
-  --white:#fff;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;overflow-x:hidden}
-a{color:inherit}
-.container{width:min(1180px,calc(100% - 40px));margin:0 auto}
-.site-header{position:sticky;top:0;z-index:1000;background:rgba(247,249,251,.97);border-bottom:1px solid var(--line)}
-.nav{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:24px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:800;font-size:1.05rem;color:var(--navy)}
-.brand img{width:48px;height:48px;border-radius:50%;object-fit:cover}
-.brand small{display:block;margin-top:3px;color:var(--muted);font-size:.72rem;font-weight:600}
-.nav-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
-.nav-links a{padding:11px 13px;border-radius:12px;text-decoration:none;color:#586b7c;font-size:.82rem;font-weight:750}
-.nav-links a:hover,.nav-links a.active{background:#eaf0f4;color:var(--navy)}
-.hero{padding:74px 0 62px;color:#fff;background:radial-gradient(circle at 85% 15%,rgba(18,142,150,.26),transparent 25%),linear-gradient(120deg,var(--navy),var(--navy2))}
-.eyebrow{color:#f0b34b;font-size:.72rem;font-weight:850;letter-spacing:.15em;text-transform:uppercase}
-.hero h1{max-width:950px;margin:.5rem 0 1rem;font-size:clamp(3rem,6vw,6rem);line-height:.92;letter-spacing:-.065em}
-.hero p{max-width:760px;margin:0;color:#d9e6ec;font-size:1.02rem;line-height:1.7}
-.section{padding:76px 0}
-.alt{background:var(--paper)}
-.section-title{margin-bottom:34px}
-.section-title h2{max-width:900px;margin:.4rem 0 0;color:var(--navy);font-size:clamp(2.25rem,4.5vw,4.5rem);line-height:.98;letter-spacing:-.05em}
-.footer{padding:42px 0;background:var(--navy);color:#cbd8df}
-.footer strong{color:#fff}
-.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:flex-start}
-.version-badge{display:inline-block;margin-top:12px;padding:6px 9px;border-radius:999px;background:rgba(255,255,255,.08);font-size:.68rem;color:#dbe6eb}
-@media(max-width:900px){
-  .nav{align-items:flex-start;padding:14px 0;flex-direction:column}
-  .nav-links{justify-content:flex-start}
-}
-@media(max-width:620px){
-  .container{width:min(100% - 24px,1180px)}
-  .hero h1{font-size:clamp(2.65rem,13vw,4.1rem)}
-  .nav-links{gap:2px}
-  .nav-links a{padding:8px 9px;font-size:.76rem}
-}
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Research | Moniruzzaman Moni, PhD, P.Eng.</title><meta name="description" content="Senior structural engineer specializing in bridges, rehabilitation, communication and transmission towers, buildings, nuclear structures and research."><meta name="theme-color" content="#071b2e"><link rel="canonical" href="https://moniruzzamanmoni.com/"><meta property="og:type" content="website"><meta property="og:title" content="Moniruzzaman Moni, PhD, P.Eng. | Senior Structural Engineer"><meta property="og:description" content="Senior structural engineer specializing in bridges, rehabilitation, communication and transmission towers, buildings, nuclear structures and research."><meta property="og:image" content="https://moniruzzamanmoni.com/assets/images/profile-social.jpg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="assets/images/favicon-32.png"><link rel="stylesheet" href="assets/css/main.css?v=20260801"><link rel="stylesheet" href="assets/css/v6.css?v=20260801"><script>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||'light'}catch(e){}</script><style>
 
-.research-stack{display:grid;gap:24px}
-.research-card{display:grid;grid-template-columns:42% 58%;overflow:hidden;border:1px solid var(--line);border-radius:24px;background:#fff;box-shadow:0 14px 40px rgba(16,45,64,.08)}
-.research-card.reverse{grid-template-columns:58% 42%}
-.research-visual{min-height:360px;position:relative;overflow:hidden;background:linear-gradient(145deg,#081b2b,#0d5962)}
-.research-visual.wind:before,.research-visual.wind:after{content:"";position:absolute;border:2px solid rgba(255,255,255,.28);border-radius:50%}
-.research-visual.wind:before{width:320px;height:320px;left:50%;top:50%;transform:translate(-50%,-50%)}
-.research-visual.wind:after{width:210px;height:210px;left:50%;top:50%;transform:translate(-50%,-50%)}
-.tower-model{position:absolute;left:50%;bottom:42px;transform:translateX(-50%);width:82px;height:230px;border:7px solid #fff;border-bottom-width:18px;border-radius:8px 8px 0 0}
-.tower-model:before{content:"";position:absolute;left:50%;top:-30px;transform:translateX(-50%);width:40px;height:40px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 12px rgba(210,139,32,.18)}
-.wind-lines{position:absolute;inset:0;background:repeating-linear-gradient(165deg,transparent 0 34px,rgba(255,255,255,.16) 35px 37px,transparent 38px 72px)}
-.research-visual.logo{display:grid;place-items:center;background:#eef3f6}
-.research-visual.logo img{width:72%;max-width:390px;height:auto;object-fit:contain}
-.research-copy{padding:34px}
-.research-copy h2{margin:.45rem 0 .75rem;color:var(--navy);font-size:2rem;line-height:1.08}
-.research-copy p{color:var(--muted);line-height:1.62}
-.fact-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0}
-.fact{padding:13px;border-radius:13px;background:#f2f5f7}
-.fact span{display:block;color:var(--gold);font-size:.63rem;font-weight:850;letter-spacing:.1em;text-transform:uppercase}
-.fact strong{display:block;margin-top:4px;color:var(--navy);font-size:.79rem}
-.tags{display:flex;flex-wrap:wrap;gap:7px}
-.tags span{padding:6px 9px;border-radius:999px;background:#edf2f5;color:#506778;font-size:.68rem;font-weight:760}
-@media(max-width:900px){.research-card,.research-card.reverse{grid-template-columns:1fr}.research-visual{min-height:280px}}
-@media(max-width:620px){.research-copy{padding:24px}.fact-grid{grid-template-columns:1fr}}
+body{overflow-x:hidden}
+.v61-page *{box-sizing:border-box}
+.v61-page{--n:#071927;--n2:#0c344a;--t:#0c7880;--g:#d28b20;--i:#112638;--m:#607587;--p:#f3f6f8;--l:#d8e2e8;color:var(--i);background:#fff}
+.v61-container{width:min(1180px,calc(100% - 40px));margin:0 auto}
+.v61-section{padding:78px 0}.v61-alt{background:var(--p)}
+.v61-eyebrow{color:var(--g);font-size:.72rem;font-weight:850;letter-spacing:.14em;text-transform:uppercase}
+.v61-heading{margin-bottom:34px}.v61-heading h2{max-width:900px;margin:.35rem 0 0;color:var(--n);font-size:clamp(2.25rem,4.5vw,4.6rem);line-height:.97;letter-spacing:-.052em}
+.v61-button{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:999px;border:1px solid transparent;font-weight:850;text-decoration:none}
+.v61-button.primary{background:var(--g);color:#081a2a}.v61-button.secondary{border-color:rgba(255,255,255,.35);background:rgba(255,255,255,.06);color:#fff}
+.v61-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+
+/* HOME */
+.v61-home-hero{position:relative;overflow:hidden;padding:72px 0 58px;color:#fff;background:radial-gradient(circle at 86% 12%,rgba(15,137,145,.25),transparent 24%),linear-gradient(120deg,#051522 0%,#092b40 66%,#0d5f67 100%)}
+.v61-home-hero:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.028) 1px,transparent 1px);background-size:72px 72px}
+.v61-home-grid{position:relative;display:grid;grid-template-columns:minmax(0,1.55fr) 190px;gap:68px;align-items:center}
+.v61-home-copy h1{max-width:950px;margin:.45rem 0 1.15rem;font-size:clamp(3rem,5.8vw,6rem)!important;line-height:.92!important;letter-spacing:-.07em!important;color:#fff!important}
+.v61-home-copy p{max-width:790px;margin:0;color:#d8e6ec;font-size:1.04rem;line-height:1.78}
+.v61-profile{width:185px;padding:9px;border:1px solid rgba(255,255,255,.18);border-radius:20px;background:rgba(255,255,255,.09);box-shadow:0 20px 50px rgba(0,0,0,.24)}
+.v61-profile img{display:block;width:100%;height:200px;object-fit:cover;object-position:center top;border-radius:13px}
+.v61-profile div{padding:10px 4px 2px}.v61-profile strong,.v61-profile span,.v61-profile small{display:block}.v61-profile strong{font-size:.83rem}.v61-profile span{margin-top:4px;font-size:.69rem}.v61-profile small{margin-top:4px;color:#cadbe3;font-size:.64rem}
+.v61-metrics{border-bottom:1px solid var(--l);background:#fff}.v61-metrics-grid{display:grid;grid-template-columns:repeat(5,1fr)}
+.v61-metrics article{min-height:138px;padding:22px 18px;border-right:1px solid var(--l)}.v61-metrics article:last-child{border-right:0}.v61-metrics strong{display:block;color:var(--n);font-size:1.58rem}.v61-metrics span{display:block;margin-top:7px;color:var(--m);font-size:.75rem;line-height:1.4}
+.v61-sector-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.v61-sector{position:relative;min-height:470px;overflow:hidden;border-radius:24px;background-size:cover;background-position:center;color:#fff;text-decoration:none;box-shadow:0 16px 44px rgba(12,39,57,.11)}
+.v61-sector.bridge{background-image:url("assets/images/kuril-flyover.png")}.v61-sector.building{background-image:url("assets/images/30-merton.jpg")}.v61-sector.tower{background-image:url("assets/images/lattice-tower.jpg")}
+.v61-sector:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,22,37,.05),rgba(5,22,37,.58) 48%,rgba(5,22,37,.97))}
+.v61-sector-content{position:absolute;left:0;right:0;bottom:0;padding:27px}.v61-sector-content>span{color:#f1b348;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;font-weight:850}
+.v61-sector h3{margin:.45rem 0 .75rem;font-size:clamp(1.75rem,2.3vw,2.55rem)!important;line-height:1!important;color:#fff!important}.v61-sector p{color:#dce7ec;font-size:.85rem;line-height:1.54}
+.v61-featured{background:var(--n);color:#fff}.v61-featured .v61-heading h2{color:#fff}.v61-featured-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:20px}
+.v61-bradford{min-height:500px;padding:38px;display:flex;align-items:flex-end;border-radius:25px;background:linear-gradient(180deg,rgba(5,22,37,.06),rgba(5,22,37,.91)),url("assets/images/bradford-bypass-west.png") center/cover}
+.v61-bradford h3{margin:.45rem 0 .8rem;font-size:clamp(2.65rem,4.6vw,4.6rem)!important;line-height:.95!important;color:#fff!important}.v61-bradford p{max-width:650px;color:#d9e7ed;line-height:1.65}
+.v61-project-side{display:grid;grid-template-rows:1fr 1fr;gap:20px}.v61-project-mini{min-height:240px;padding:25px;display:flex;align-items:flex-end;border-radius:25px;background-size:cover;background-position:center;color:#fff}
+.v61-project-mini.merton{background-image:linear-gradient(180deg,rgba(5,22,37,.05),rgba(5,22,37,.91)),url("assets/images/30-merton.jpg")}.v61-project-mini.tower{background-image:linear-gradient(180deg,rgba(5,22,37,.05),rgba(5,22,37,.91)),url("assets/images/lattice-tower.jpg")}
+.v61-project-mini h3{margin:.4rem 0;font-size:1.75rem!important;line-height:1!important;color:#fff!important}
+
+/* PAGE HERO */
+.v61-page-hero{padding:70px 0 56px;color:#fff;background:linear-gradient(120deg,#061827,#0d5360)}
+.v61-page-hero h1{max-width:980px;margin:.4rem 0 1rem;font-size:clamp(3rem,5.7vw,5.9rem)!important;line-height:.93!important;letter-spacing:-.068em!important;color:#fff!important}.v61-page-hero p{max-width:760px;color:#d7e4ea;line-height:1.72}
+
+/* RESEARCH */
+.v61-research-grid{display:grid;grid-template-columns:1fr;gap:24px}.v61-research-card{display:grid;grid-template-columns:42% 58%;overflow:hidden;border:1px solid var(--l);border-radius:24px;background:#fff;box-shadow:0 14px 40px rgba(16,45,64,.08)}
+.v61-research-card.reverse{grid-template-columns:58% 42%}.v61-research-visual{min-height:355px;display:grid;place-items:center;background:#eaf0f4;overflow:hidden}.v61-research-visual img{width:100%;height:100%;object-fit:cover}.v61-research-visual.logo img{width:76%;height:auto;max-height:220px;object-fit:contain}
+.v61-research-copy{padding:34px}.v61-research-copy h2{margin:.45rem 0 .8rem;color:var(--n);font-size:2rem!important;line-height:1.08!important}.v61-research-copy p{color:var(--m);line-height:1.62}
+.v61-research-facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0}.v61-research-facts div{padding:13px;border-radius:13px;background:#f2f5f7}.v61-research-facts span{display:block;color:var(--g);font-size:.63rem;letter-spacing:.1em;text-transform:uppercase;font-weight:850}.v61-research-facts strong{display:block;margin-top:4px;color:var(--n);font-size:.78rem}
+.v61-tags{display:flex;flex-wrap:wrap;gap:7px}.v61-tags span{padding:6px 9px;border-radius:999px;background:#edf2f5;color:#506778;font-size:.68rem;font-weight:760}
+
+/* CONTACT */
+.v61-contact-shell{display:grid;grid-template-columns:.82fr 1.18fr;gap:30px;align-items:start}.v61-contact-info,.v61-form-card{padding:30px;border:1px solid var(--l);border-radius:22px;background:#fff;box-shadow:0 12px 36px rgba(16,45,64,.06)}
+.v61-contact-info h2,.v61-form-card h2{margin:.35rem 0 1rem;color:var(--n);font-size:2rem!important}.v61-contact-info p{color:var(--m);line-height:1.6}.v61-contact-list{display:grid;gap:13px;margin-top:22px}
+.v61-contact-item{padding:15px;border-radius:14px;background:#f2f5f7}.v61-contact-item span{display:block;color:var(--g);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;font-weight:850}.v61-contact-item strong,.v61-contact-item a{display:block;margin-top:4px;color:var(--n);font-size:.84rem;text-decoration:none}
+.v61-form{display:grid;grid-template-columns:1fr 1fr;gap:14px}.v61-form .full{grid-column:1/-1}.v61-form label{display:block;margin-bottom:6px;color:#385064;font-size:.75rem;font-weight:800}.v61-form input,.v61-form textarea{width:100%;padding:13px 14px;border:1px solid #cbd8e0;border-radius:12px;background:#fff;font:inherit}.v61-form textarea{min-height:160px;resize:vertical}.v61-note{margin-top:14px;color:var(--m);font-size:.74rem;line-height:1.45}
+
+@media(max-width:980px){.v61-home-grid,.v61-featured-grid,.v61-contact-shell,.v61-research-card,.v61-research-card.reverse{grid-template-columns:1fr}.v61-profile{justify-self:start}.v61-sector-grid{grid-template-columns:1fr}.v61-metrics-grid{grid-template-columns:repeat(3,1fr)}.v61-research-visual{min-height:280px}}
+@media(max-width:640px){.v61-container{width:min(100% - 24px,1180px)}.v61-section{padding:60px 0}.v61-home-copy h1,.v61-page-hero h1{font-size:clamp(2.65rem,13vw,4.2rem)!important}.v61-profile{width:165px}.v61-profile img{height:178px}.v61-metrics-grid{grid-template-columns:1fr 1fr}.v61-featured-grid{grid-template-columns:1fr}.v61-bradford{min-height:420px;padding:26px}.v61-form,.v61-research-facts{grid-template-columns:1fr}.v61-form .full{grid-column:auto}}
+
 </style>
-</head>
-<body>
+</head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="container nav"><a class="brand" href="index.html"><span class="brand-avatar"><img src="assets/images/profile-avatar.jpg" alt="Moniruzzaman Moni"></span><div>Moniruzzaman Moni<small>PhD, P.Eng.</small></div></a><nav class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="experience.html">Experience</a><a href="practice-areas.html">Practice Areas</a><a href="projects.html">Projects</a><a href="technical-standards.html">Standards</a><a href="insights.html">Insights</a><a href="research.html" class="active">Research</a><a href="contact.html">Contact</a></nav><div class="nav-actions"><button class="icon-btn" id="themeToggle" aria-label="Toggle theme">◐</button><button class="menu-btn" id="menuToggle" aria-label="Open menu">☰</button></div></div></header>
 
-<header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index.html">
-      <img src="assets/images/profile-avatar.jpg" alt="Moniruzzaman Moni">
-      <span>Moniruzzaman Moni<small>PhD, P.Eng.</small></span>
-    </a>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="experience.html">Experience</a>
-      <a href="practice-areas.html">Practice Areas</a>
-      <a href="projects.html">Projects</a>
-      <a href="research.html" class="active">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="contact.html" class="">Contact</a>
-    </nav>
-  </div>
-</header>
 
-<main>
-<section class="hero"><div class="container"><div class="eyebrow">Research and innovation</div><h1>Structural dynamics, wind engineering and smart materials.</h1><p>Experimental and analytical research connecting advanced simulation with practical structural engineering decisions.</p></div></section>
-<section class="section alt"><div class="container">
-<div class="section-title"><div class="eyebrow">Research portfolio</div><h2>Two graduate research programs and one applied engineering stream.</h2></div>
-<div class="research-stack">
-<article class="research-card">
-  <div class="research-visual wind"><div class="wind-lines"></div><div class="tower-model"></div></div>
-  <div class="research-copy"><div class="eyebrow">University of Toronto · PhD</div><h2>Real-Time Aeroelastic Hybrid Simulation</h2><p>Development and experimental validation of a real-time aeroelastic hybrid-simulation framework for a base-pivoting building model in a wind tunnel.</p>
-  <div class="fact-grid"><div class="fact"><span>Discipline</span><strong>Wind Engineering</strong></div><div class="fact"><span>Method</span><strong>Real-Time Hybrid Simulation</strong></div><div class="fact"><span>System</span><strong>Base-Pivoting Building</strong></div><div class="fact"><span>Focus</span><strong>Structural Dynamics</strong></div></div>
-  <div class="tags"><span>Wind Engineering</span><span>Hybrid Simulation</span><span>Structural Dynamics</span></div></div>
-</article>
-<article class="research-card reverse">
-  <div class="research-copy"><div class="eyebrow">University of British Columbia · MASc</div><h2>Shape-Memory-Alloy Reinforced-Concrete Frames</h2><p>Analytical investigation of reinforced-concrete frames incorporating shape-memory-alloy reinforcement under extreme loading.</p>
-  <div class="fact-grid"><div class="fact"><span>Discipline</span><strong>Earthquake Engineering</strong></div><div class="fact"><span>Material</span><strong>Shape-Memory Alloy</strong></div><div class="fact"><span>System</span><strong>RC Frames</strong></div><div class="fact"><span>Focus</span><strong>Extreme Loading</strong></div></div>
-  <div class="tags"><span>Seismic Response</span><span>Smart Materials</span><span>Reinforced Concrete</span></div></div>
-  <div class="research-visual logo"><img src="assets/images/universities/ubc-logo.png" alt="University of British Columbia logo"></div>
-</article>
-<article class="research-card">
-  <div class="research-visual" style="background:linear-gradient(135deg,#0a2c42,#0d737b);display:grid;place-items:center;color:white;text-align:center;padding:30px"><div><div style="font-size:4rem;font-weight:900">FIELD + MODEL</div><div style="margin-top:12px;color:#dce9ee">Bridge assessment · load testing · rehabilitation decisions</div></div></div>
-  <div class="research-copy"><div class="eyebrow">Applied engineering research</div><h2>Bridge Dynamics, Load Testing & Asset Decisions</h2><p>Applying analytical models, field measurements and structural assessment to reduce uncertainty in rehabilitation and asset-management decisions.</p>
-  <div class="fact-grid"><div class="fact"><span>Application</span><strong>Bridge Assessment</strong></div><div class="fact"><span>Method</span><strong>Diagnostic Load Testing</strong></div><div class="fact"><span>Output</span><strong>Rehabilitation Decisions</strong></div><div class="fact"><span>Context</span><strong>Asset Management</strong></div></div>
-  <div class="tags"><span>Load Testing</span><span>Assessment</span><span>Rehabilitation</span></div></div>
-</article>
+
+
+
+
+<main id="main" class="v61-page">
+<section class="v61-page-hero"><div class="v61-container"><div class="v61-eyebrow">Research and innovation</div><h1>Experimental and analytical research in structural dynamics.</h1><p>Research spans wind engineering, real-time hybrid simulation, seismic response and shape-memory-alloy reinforced concrete.</p></div></section>
+<section class="v61-section v61-alt"><div class="v61-container"><div class="v61-research-grid">
+<article class="v61-research-card"><div class="v61-research-visual"><img src="assets/images/profile-social.jpg" alt="University of Toronto research"></div><div class="v61-research-copy"><div class="v61-eyebrow">University of Toronto · PhD</div><h2>Real-Time Aeroelastic Hybrid Simulation</h2><p>Development and experimental validation of a real-time aeroelastic hybrid-simulation framework for a base-pivoting building model in a wind tunnel.</p><div class="v61-research-facts"><div><span>Discipline</span><strong>Wind Engineering</strong></div><div><span>Method</span><strong>Real-Time Hybrid Simulation</strong></div><div><span>System</span><strong>Base-Pivoting Building</strong></div><div><span>Focus</span><strong>Structural Dynamics</strong></div></div><div class="v61-tags"><span>Wind Engineering</span><span>Structural Dynamics</span><span>Hybrid Simulation</span></div></div></article>
+<article class="v61-research-card reverse"><div class="v61-research-copy"><div class="v61-eyebrow">University of British Columbia · MASc</div><h2>Shape-Memory-Alloy Reinforced-Concrete Frames</h2><p>Analytical investigation of reinforced-concrete frames incorporating shape-memory-alloy reinforcement under extreme loading.</p><div class="v61-research-facts"><div><span>Discipline</span><strong>Earthquake Engineering</strong></div><div><span>Material</span><strong>Shape-Memory Alloy</strong></div><div><span>System</span><strong>RC Frames</strong></div><div><span>Focus</span><strong>Extreme Loading</strong></div></div><div class="v61-tags"><span>Seismic Response</span><span>Smart Materials</span><span>Reinforced Concrete</span></div></div><div class="v61-research-visual logo"><img src="assets/images/universities/ubc-logo.png" alt="University of British Columbia logo"></div></article>
+<article class="v61-research-card"><div class="v61-research-visual"><img src="assets/images/kuril-flyover.png" alt="Transportation infrastructure"></div><div class="v61-research-copy"><div class="v61-eyebrow">Applied engineering research</div><h2>Bridge Dynamics, Load Testing & Asset Decisions</h2><p>Applying analytical models, field measurements and structural assessment to reduce uncertainty in rehabilitation and asset-management decisions.</p><div class="v61-research-facts"><div><span>Application</span><strong>Bridge Assessment</strong></div><div><span>Method</span><strong>Diagnostic Load Testing</strong></div><div><span>Output</span><strong>Rehabilitation Decisions</strong></div><div><span>Context</span><strong>Asset Management</strong></div></div><div class="v61-tags"><span>Load Testing</span><span>Structural Assessment</span><span>Rehabilitation</span></div></div></article>
 </div></div></section>
 </main>
-
-<footer class="footer">
-  <div class="container footer-grid">
-    <div><strong>Moniruzzaman Moni, PhD, P.Eng.</strong><br>Toronto, Ontario, Canada</div>
-    <div><span class="version-badge">Research & Contact redesign · RC-2.0</span></div>
-  </div>
-</footer>
-
-</body></html>
+<footer class="footer"><div class="container"><div class="footer-grid"><div><h3>Moniruzzaman Moni, PhD, P.Eng.</h3><p>Senior structural engineer working across bridges, rehabilitation, towers, buildings, utility infrastructure and advanced structural research.</p></div><div><h3>Portfolio</h3><a href="projects.html">Representative projects</a><a href="practice-areas.html">Practice areas</a><a href="technical-standards.html">Technical standards</a><a href="insights.html">Engineering insights</a></div><div><h3>Connect</h3><a href="https://www.linkedin.com/in/moniruzzaman-moni-masc-phd-p-eng-27968621/" target="_blank" rel="noopener">LinkedIn</a><a href="https://scholar.google.com/citations?user=DgaNfWQAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a><a href="assets/documents/Moniruzzaman-Moni-CV.pdf">Download CV</a><a href="contact.html">Contact</a></div></div><div class="footer-bottom">© 2026 Moniruzzaman Moni, PhD, P.Eng. · Toronto, Ontario, Canada</div></div></footer><script src="assets/js/app.js?v=20260801"></script></body></html>
