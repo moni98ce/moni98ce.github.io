@@ -1,19 +1,17 @@
-SITE REPAIR — HOME, RESEARCH AND CONTACT
+ABOUT PAGE FINAL REPLACEMENT
 
-This is intentionally a small repair package, not another complete-site redesign.
+Upload:
+- about.html
+- assets/images/profile-avatar.jpg
+- assets/images/universities/
 
-Upload exactly these three HTML files to the repository root:
-- index.html
-- research.html
-- contact.html
+The page is self-contained and does not depend on main.css, v5.css, v6.css, or any page-specific stylesheet.
 
-Also upload/replace the included assets folder.
+Verification:
+Scroll to the footer. It must show:
+About page repair · A-2.0
 
-Important:
-1. Delete or ignore v6-hotfix.css. The repair styles are embedded directly in each HTML page.
-2. Commit the files.
-3. Wait for GitHub Pages deployment to finish.
-4. Hard refresh with Ctrl+F5.
-5. Test in a private/incognito window.
-
-The three pages now use the same navigation shell and cannot fail because of a missing or cached page-specific stylesheet.
+After uploading:
+1. Commit.
+2. Wait for deployment.
+3. Open about.html in an incognito/private window.
