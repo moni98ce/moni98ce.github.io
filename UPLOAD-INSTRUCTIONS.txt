@@ -1,0 +1,19 @@
+SITE REPAIR — HOME, RESEARCH AND CONTACT
+
+This is intentionally a small repair package, not another complete-site redesign.
+
+Upload exactly these three HTML files to the repository root:
+- index.html
+- research.html
+- contact.html
+
+Also upload/replace the included assets folder.
+
+Important:
+1. Delete or ignore v6-hotfix.css. The repair styles are embedded directly in each HTML page.
+2. Commit the files.
+3. Wait for GitHub Pages deployment to finish.
+4. Hard refresh with Ctrl+F5.
+5. Test in a private/incognito window.
+
+The three pages now use the same navigation shell and cannot fail because of a missing or cached page-specific stylesheet.
