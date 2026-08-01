@@ -1,0 +1,1 @@
+Version 6.1 fixes Home, Research and Contact using isolated production styles. Replace index.html, research.html, contact.html and assets/css/v6-hotfix.css.
