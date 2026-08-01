@@ -254,3 +254,126 @@
     linear-gradient(180deg,rgba(5,22,37,.06),rgba(5,22,37,.90)),
     url("../images/bradford-bypass-west-illustration.svg");
 }
+
+
+/* V5.2 — Bradford Bypass West engineering graphic card */
+.v52-bbp-card{
+  background:#fff;
+}
+.v52-bbp-graphic{
+  min-height:360px;
+  padding:28px;
+  color:#fff;
+  background:
+    radial-gradient(circle at 82% 18%,rgba(21,142,148,.28),transparent 24%),
+    linear-gradient(145deg,#061827 0%,#0b3148 70%,#0d6870 100%);
+  position:relative;
+  overflow:hidden;
+}
+.v52-bbp-graphic::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:42px 42px;
+}
+.v52-bbp-graphic>*{
+  position:relative;
+  z-index:1;
+}
+.v52-bbp-kicker{
+  color:#f1b348;
+  font-size:.68rem;
+  font-weight:850;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+.v52-bbp-graphic h3{
+  margin:.45rem 0 .45rem;
+  font-size:2.25rem;
+  line-height:1;
+  letter-spacing:-.045em;
+}
+.v52-bbp-graphic>p{
+  margin:0 0 22px;
+  color:#d8e6ec;
+  font-size:.86rem;
+}
+.v52-bbp-counts{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+.v52-bbp-counts div{
+  padding:15px;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:14px;
+  background:rgba(255,255,255,.07);
+}
+.v52-bbp-counts strong{
+  display:block;
+  font-size:2rem;
+  line-height:1;
+}
+.v52-bbp-counts span{
+  display:block;
+  margin-top:5px;
+  color:#d8e6ec;
+  font-size:.72rem;
+}
+.v52-bbp-role,
+.v52-bbp-status{
+  margin-top:16px;
+  padding-top:14px;
+  border-top:1px solid rgba(255,255,255,.18);
+}
+.v52-bbp-role span,
+.v52-bbp-status span{
+  display:block;
+  color:#f1b348;
+  font-size:.64rem;
+  font-weight:850;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+}
+.v52-bbp-role strong,
+.v52-bbp-status strong{
+  display:block;
+  margin-top:4px;
+  font-size:.79rem;
+  line-height:1.42;
+}
+.v52-bbp-graphic ul{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:7px 12px;
+  margin:16px 0 0;
+  padding:0;
+  list-style:none;
+}
+.v52-bbp-graphic li{
+  position:relative;
+  padding-left:15px;
+  color:#eef4f6;
+  font-size:.72rem;
+}
+.v52-bbp-graphic li::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:.5em;
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:#d48a1d;
+}
+@media(max-width:680px){
+  .v52-bbp-graphic{
+    min-height:0;
+  }
+  .v52-bbp-graphic ul{
+    grid-template-columns:1fr;
+  }
+}
