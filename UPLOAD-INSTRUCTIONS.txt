@@ -1,17 +1,20 @@
-ABOUT PAGE FINAL REPLACEMENT
+FINAL REPLACEMENT — RESEARCH AND CONTACT
 
-Upload:
-- about.html
-- assets/images/profile-avatar.jpg
-- assets/images/universities/
+Upload these two files directly to the repository root:
+- research.html
+- contact.html
 
-The page is self-contained and does not depend on main.css, v5.css, v6.css, or any page-specific stylesheet.
+These files are fully self-contained and do not depend on main.css, v6.css, or any page-specific stylesheet.
+
+Also ensure this existing image remains available:
+- assets/images/universities/ubc-logo.png
 
 Verification:
-Scroll to the footer. It must show:
-About page repair · A-2.0
+- Research page footer must show: Research & Contact redesign · RC-2.0
+- Contact page footer must show the same version badge.
 
-After uploading:
-1. Commit.
-2. Wait for deployment.
-3. Open about.html in an incognito/private window.
+After upload:
+1. Commit changes.
+2. Wait for GitHub Pages deployment.
+3. Open each page in an incognito/private window.
+4. Confirm the RC-2.0 badge is visible in the footer.
