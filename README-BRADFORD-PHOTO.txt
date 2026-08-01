@@ -1,0 +1,1 @@
+Uses the supplied Bradford Bypass West photo instead of the placeholder/illustration.
