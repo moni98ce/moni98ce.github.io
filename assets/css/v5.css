@@ -101,7 +101,7 @@
 .v5-dark .v5-heading h2{color:#fff}
 .v5-dark .v5-heading p{color:#c7d6dd}
 .v5-project-grid{display:grid;grid-template-columns:1.13fr .87fr;gap:22px}
-.v5-project-main{min-height:510px;padding:42px;display:flex;align-items:flex-end;border-radius:26px;background:linear-gradient(180deg,rgba(5,22,37,.08),rgba(5,22,37,.94)),url("../images/kuril-flyover.png") center/cover}
+.v5-project-main{min-height:510px;padding:42px;display:flex;align-items:flex-end;border-radius:26px;background:linear-gradient(180deg,rgba(5,22,37,.08),rgba(5,22,37,.94)),url("../images/bradford-bypass-west-illustration.svg") center/cover}
 .v5-project-main h3{margin:.55rem 0 1rem;font-size:clamp(2.8rem,5vw,5rem);line-height:.94;letter-spacing:-.055em}
 .v5-project-main p{max-width:660px;color:#d9e7ed;line-height:1.68}
 .v5-project-facts{display:flex;flex-wrap:wrap;gap:9px;margin:24px 0}
@@ -227,4 +227,30 @@
   .v5-contact-form .full{grid-column:auto}
   .v5-cta-grid{display:block}
   .v5-cta .v5-button{margin-top:18px}
+}
+
+
+/* V5.1 corrections */
+.v5-logo-box{
+  flex-basis:96px;
+  width:96px;
+  height:96px;
+  padding:8px;
+}
+.v5-degree:nth-child(2) .v5-logo-box img{
+  width:78px;
+  height:auto;
+  max-width:78px;
+  max-height:78px;
+}
+.v5-degree:nth-child(1) .v5-logo-box img,
+.v5-degree:nth-child(3) .v5-logo-box img{
+  width:74px;
+  max-width:74px;
+  max-height:74px;
+}
+.v5-project-main{
+  background-image:
+    linear-gradient(180deg,rgba(5,22,37,.06),rgba(5,22,37,.90)),
+    url("../images/bradford-bypass-west-illustration.svg");
 }
