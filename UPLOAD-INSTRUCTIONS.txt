@@ -1,20 +1,12 @@
-FINAL REPLACEMENT — RESEARCH AND CONTACT
+FINAL RESEARCH PAGE V8
 
-Upload these two files directly to the repository root:
+Upload:
 - research.html
-- contact.html
+- assets/images/research/phd-hybrid-simulation-framework.png
 
-These files are fully self-contained and do not depend on main.css, v6.css, or any page-specific stylesheet.
+The PhD figure is included exactly as supplied and is not modified.
+The MASc methodology is presented as a clean website infographic.
+Google Scholar links are included in the hero and final research-profile panel.
 
-Also ensure this existing image remains available:
-- assets/images/universities/ubc-logo.png
-
-Verification:
-- Research page footer must show: Research & Contact redesign · RC-2.0
-- Contact page footer must show the same version badge.
-
-After upload:
-1. Commit changes.
-2. Wait for GitHub Pages deployment.
-3. Open each page in an incognito/private window.
-4. Confirm the RC-2.0 badge is visible in the footer.
+Suggested commit:
+Publish final research page with original PhD framework
