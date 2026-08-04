@@ -1,0 +1,30 @@
+PORTFOLIO V7.4 — LIGHT TORONTO INFRASTRUCTURE HERO
+
+What changed:
+- Added a real Toronto skyline background to the homepage hero.
+- Added subtle bridge and telecommunication-tower engineering linework.
+- Kept the existing homepage layout, buttons and profile card.
+- Kept the actual uploaded profile photos.
+- Added cache-busting so the old blue-only hero is not reused by the browser.
+- Retained the working static Projects page and nine project pages from V7.3.
+
+Upload:
+Upload ALL extracted contents directly to the GitHub repository root.
+
+Critical files:
+index.html
+assets/css/site.css
+assets/images/hero/toronto-skyline.jpg
+assets/images/hero/engineering-overlay.svg
+assets/images/profile.jpg
+assets/images/profile-avatar.jpg
+
+After commit:
+1. Wait for GitHub Pages deployment.
+2. Open the website in an incognito/private window.
+3. Hard refresh with Ctrl+F5.
+4. Verify:
+   https://moniruzzamanmoni.com/assets/images/hero/toronto-skyline.jpg
+
+Suggested commit:
+Add light Toronto infrastructure hero background and preserve working profile photos
