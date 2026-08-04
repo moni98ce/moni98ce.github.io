@@ -273,3 +273,60 @@ body{overflow-x:hidden}
   .insight-feature-copy{padding:30px}
   .insight-feature-image img{min-height:300px}
 }
+
+
+/* V8.1 — FEATURED PROJECT NAVIGATION FIX */
+.project-strip{
+  display:grid;
+  grid-template-columns:repeat(7,minmax(145px,1fr));
+  gap:10px;
+  margin-top:14px;
+  overflow-x:auto;
+  padding:2px 2px 10px;
+  scroll-snap-type:x proximity;
+  scrollbar-width:thin;
+}
+.project-chip{
+  min-width:145px;
+  min-height:108px;
+  padding:17px 15px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:#fff;
+  color:var(--ink);
+  text-align:left;
+  cursor:pointer;
+  scroll-snap-align:center;
+  transition:border-color .22s ease,box-shadow .22s ease,transform .22s ease,background .22s ease;
+}
+.project-chip strong{
+  display:block;
+  font-size:.78rem;
+  line-height:1.12;
+}
+.project-chip span{
+  display:block;
+  margin-top:6px;
+  color:var(--muted);
+  font-size:.65rem;
+}
+.project-chip:hover,
+.project-chip:focus-visible{
+  transform:translateY(-3px);
+  border-color:#8aa8bc;
+  box-shadow:0 10px 24px rgba(8,35,60,.10);
+  outline:none;
+}
+.project-chip.active{
+  border:3px solid #2677ff;
+  padding:15px 13px;
+  background:#fbfdff;
+  box-shadow:0 9px 22px rgba(38,119,255,.13);
+}
+.project-chip.active strong{color:#0a3d78}
+.carousel-track{will-change:transform}
+.slide[aria-hidden="true"]{visibility:hidden}
+.slide[aria-hidden="false"]{visibility:visible}
+@media(max-width:1100px){
+  .project-strip{grid-template-columns:repeat(7,minmax(175px,210px))}
+}

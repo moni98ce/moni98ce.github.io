@@ -38,20 +38,104 @@
   const track=document.getElementById('carouselTrack');
   const prev=document.getElementById('prevSlide');
   const next=document.getElementById('nextSlide');
+  const chips=[...document.querySelectorAll('.project-chip[data-slide]')];
+
   if(track){
     const slides=[...track.children];
     let index=0;
+    let timer=null;
+    let touchStartX=0;
+
+    const updateChips=()=>{
+      chips.forEach((chip,n)=>{
+        const active=n===index;
+        chip.classList.toggle('active',active);
+        chip.setAttribute('aria-current',active?'true':'false');
+        chip.setAttribute('aria-pressed',active?'true':'false');
+      });
+
+      const activeChip=chips[index];
+      if(activeChip){
+        activeChip.scrollIntoView({
+          behavior:'smooth',
+          block:'nearest',
+          inline:'center'
+        });
+      }
+    };
+
     const show=i=>{
       index=(i+slides.length)%slides.length;
-      track.style.transform=`translateX(-${index*100}%)`;
-      slides.forEach((slide,n)=>slide.setAttribute('aria-hidden',n===index?'false':'true'));
+      track.style.transform=`translate3d(-${index*100}%,0,0)`;
+
+      slides.forEach((slide,n)=>{
+        const active=n===index;
+        slide.setAttribute('aria-hidden',active?'false':'true');
+        slide.toggleAttribute('inert',!active);
+      });
+
+      updateChips();
     };
-    if(prev) prev.addEventListener('click',()=>show(index-1));
-    if(next) next.addEventListener('click',()=>show(index+1));
-    let timer=setInterval(()=>show(index+1),6000);
-    track.addEventListener('mouseenter',()=>clearInterval(timer));
-    track.addEventListener('mouseleave',()=>timer=setInterval(()=>show(index+1),6000));
+
+    const stopAuto=()=>{
+      if(timer){
+        clearInterval(timer);
+        timer=null;
+      }
+    };
+
+    const startAuto=()=>{
+      stopAuto();
+      timer=setInterval(()=>show(index+1),6000);
+    };
+
+    const goTo=i=>{
+      show(i);
+      startAuto();
+    };
+
+    if(prev) prev.addEventListener('click',()=>goTo(index-1));
+    if(next) next.addEventListener('click',()=>goTo(index+1));
+
+    chips.forEach(chip=>{
+      chip.type='button';
+      chip.addEventListener('click',()=>{
+        const target=Number(chip.dataset.slide);
+        if(Number.isInteger(target) && target>=0 && target<slides.length){
+          goTo(target);
+        }
+      });
+    });
+
+    track.addEventListener('mouseenter',stopAuto);
+    track.addEventListener('mouseleave',startAuto);
+    track.addEventListener('focusin',stopAuto);
+    track.addEventListener('focusout',startAuto);
+
+    track.addEventListener('touchstart',event=>{
+      touchStartX=event.changedTouches[0].clientX;
+      stopAuto();
+    },{passive:true});
+
+    track.addEventListener('touchend',event=>{
+      const delta=event.changedTouches[0].clientX-touchStartX;
+      if(Math.abs(delta)>45){
+        show(delta<0?index+1:index-1);
+      }
+      startAuto();
+    },{passive:true});
+
+    document.addEventListener('keydown',event=>{
+      if(event.key==='ArrowLeft' && document.activeElement?.closest('.carousel, .project-strip')){
+        goTo(index-1);
+      }
+      if(event.key==='ArrowRight' && document.activeElement?.closest('.carousel, .project-strip')){
+        goTo(index+1);
+      }
+    });
+
     show(0);
+    startAuto();
   }
 
   const lightbox=document.getElementById('lightbox');
