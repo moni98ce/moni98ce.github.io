@@ -1,12 +1,11 @@
-FINAL RESEARCH PAGE V8
+CONTACT PAGE V7.2
 
-Upload:
-- research.html
-- assets/images/research/phd-hybrid-simulation-framework.png
+Upload the contents of this folder to the matching locations in the repository.
 
-The PhD figure is included exactly as supplied and is not modified.
-The MASc methodology is presented as a clean website infographic.
-Google Scholar links are included in the hero and final research-profile panel.
+This version uses:
+- Email: moni@moniruzzamanmoni.com
+- Name: Dr. Moniruzzaman Moni, PEng.
+- No Web3Forms key is required. The form opens the visitor's default email application.
 
 Suggested commit:
-Publish final research page with original PhD framework
+Redesign contact page and update professional contact details
