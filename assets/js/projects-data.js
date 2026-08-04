@@ -152,14 +152,14 @@ window.PROJECTS=[
     "sector": "Transportation",
     "year": "Completed",
     "status": "Completed",
-    "image": "",
-    "summary": "Structural engineering contribution to a major bridge project in Sylhet, Bangladesh.",
-    "role": "Contributed to bridge structural design, substructure and foundation engineering, and technical documentation.",
+    "image": "assets/images/projects/kazir-bazar-bridge.png",
+    "summary": "Structural design contribution to the Kazir Bazar Bridge over the Surma River in Sylhet, including 35 m and 50 m prestressed-concrete girder spans and the associated substructure.",
+    "role": "Performed structural design of the 35 m and 50 m prestressed-concrete girders, deck slab, abutment walls, piers, pier caps, bored piles and pile caps; prepared the cost estimate and coordinated with contractors during project delivery.",
     "highlights": [
-      "Highway bridge",
-      "Substructure design",
-      "Foundation engineering",
-      "Technical documentation"
+      "35 m and 50 m prestressed-concrete girders",
+      "Deck slab and abutment-wall design",
+      "Piers, pier caps, bored piles and pile caps",
+      "Cost estimating and contractor coordination"
     ],
     "codes": [
       "AASHTO",
