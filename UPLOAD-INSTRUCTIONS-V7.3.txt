@@ -1,0 +1,22 @@
+FULL SITE V7.3 — FUNCTIONALITY AND PHOTO FIX
+
+Upload ALL contents of this ZIP to the repository root.
+Do not upload the enclosing folder itself. index.html must appear directly in the repository root.
+
+Key fixes:
+- Projects are now rendered directly in HTML and do not depend on projects-data.js.
+- Nine static project case-study pages are included.
+- Old project-detail.html links redirect to the correct static page.
+- Home and About photos use verified files with fallback paths.
+- Cache-busting was added to CSS, JavaScript and profile images.
+- All project images are included and verified.
+
+After upload:
+1. Commit all files.
+2. Wait for GitHub Pages deployment.
+3. Open an incognito/private window.
+4. Hard refresh with Ctrl+F5.
+5. Test index.html, about.html, projects.html and one project page.
+
+Suggested commit:
+Fix project rendering and restore Home/About profile photos
