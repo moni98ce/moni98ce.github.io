@@ -330,3 +330,31 @@ body{overflow-x:hidden}
 @media(max-width:1100px){
   .project-strip{grid-template-columns:repeat(7,minmax(175px,210px))}
 }
+
+/* ================= VERSION 9.0 ================= */
+.hero-v9{min-height:690px;display:flex;align-items:center}
+.portfolio-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.portfolio-card{overflow:hidden;border:1px solid var(--line);border-radius:24px;background:#fff;box-shadow:0 12px 36px rgba(8,35,60,.07);transition:.25s}
+.portfolio-card:hover{transform:translateY(-6px);box-shadow:0 22px 48px rgba(8,35,60,.13)}
+.portfolio-card>a{display:block;height:100%;color:inherit;text-decoration:none}
+.portfolio-image{aspect-ratio:16/10;background:#edf2f5;overflow:hidden}
+.portfolio-image img{width:100%;height:100%;object-fit:cover}
+.portfolio-body{padding:24px}
+.portfolio-body h3{font-size:1.45rem;line-height:1.1;margin:.55rem 0 .8rem}
+.portfolio-body p{color:var(--muted);line-height:1.7}
+.text-link{display:inline-block;margin-top:18px;color:var(--teal);font-weight:900}
+.tag-row{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.tag-row span{padding:8px 11px;border-radius:999px;background:#eef3f6;color:#466078;font-size:.67rem;font-weight:850}
+.project-filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:30px}
+.filter-btn{border:1px solid var(--line);border-radius:999px;background:#fff;padding:10px 16px;cursor:pointer;font-weight:850}
+.filter-btn.active,.filter-btn:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+.portfolio-card.hidden{display:none}
+.project-hero-v9{padding:62px 0;background:linear-gradient(120deg,#061827,#0b5560);color:#fff}
+.project-hero-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:42px;align-items:center}
+.project-hero-copy h1{font-size:clamp(3rem,5vw,5.8rem);line-height:.95}
+.project-hero-copy p{color:#dce9ee;line-height:1.8}
+.project-hero-media{padding:12px;border-radius:26px;background:rgba(255,255,255,.1)}
+.project-hero-media img{width:100%;max-height:540px;object-fit:contain;border-radius:18px;background:#fff}
+.project-story-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+@media(max-width:950px){.portfolio-grid{grid-template-columns:1fr 1fr}.project-hero-grid,.project-story-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.portfolio-grid{grid-template-columns:1fr}.hero-v9{min-height:auto}}

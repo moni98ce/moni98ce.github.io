@@ -158,3 +158,14 @@
   if(lightbox) lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeLightbox()});
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});
 })();
+
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const f=btn.dataset.filter;
+    document.querySelectorAll('#portfolioGrid .portfolio-card').forEach(card=>{
+      card.classList.toggle('hidden',f!=='All' && card.dataset.sector!==f);
+    });
+  });
+});

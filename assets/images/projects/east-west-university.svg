@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#08233c"/><stop offset="1" stop-color="#0d6974"/></linearGradient></defs>
+<rect width="1200" height="760" fill="url(#g)"/>
+<g opacity=".12" stroke="#fff" fill="none"><path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200"/><path d="M150 0v760M300 0v760M450 0v760M600 0v760M750 0v760M900 0v760M1050 0v760"/></g>
+<g transform="translate(335 155)" fill="none" stroke="#e4a227" stroke-width="16"><path d="M0 410V130h180v280M220 410V0h250v410"/><path d="M40 180h95M40 245h95M40 310h95M275 70h140M275 145h140M275 220h140M275 295h140"/></g>
+<text x="600" y="650" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="54" font-weight="700">East West University Academic Building</text>
+</svg>
