@@ -393,3 +393,7 @@ body{overflow-x:hidden}
 .academic-logo{height:118px;display:flex;align-items:center;justify-content:center;margin-bottom:10px}
 .academic-logo img{width:96px;height:96px;max-width:96px;max-height:96px;object-fit:contain;display:block}
 @media(max-width:900px){.academic-logo{height:108px}.academic-logo img{width:88px;height:88px;max-width:88px;max-height:88px}}
+
+/* V10.4 Academic logo correction */
+.academic-logo-buet img{width:132px;height:96px;max-width:132px;max-height:96px;object-fit:contain;}
+@media(max-width:900px){.academic-logo-buet img{width:122px;height:88px;max-width:122px;max-height:88px;}}
